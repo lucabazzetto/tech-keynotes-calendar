@@ -1,0 +1,137 @@
+techmeme:
+  feed_url: "https://techmeme.com/newsy_events.ics"
+  enabled: true
+  positive_keywords:
+    - "Apple Event"
+    - "Apple Keynote"
+    - "WWDC"
+    - "Made by Google"
+    - "Google I/O"
+    - "Google Cloud Next"
+    - "Galaxy Unpacked"
+    - "Samsung Unpacked"
+    - "OpenAI DevDay"
+    - "OpenAI Spring"
+    - "Microsoft Build"
+    - "Microsoft Ignite"
+    - "AWS re:Invent"
+    - "Databricks Data + AI"
+    - "Snowflake Summit"
+    - "NVIDIA GTC"
+    - "Meta Connect"
+  negative_keywords:
+    - "earnings"
+    - "quarterly"
+    - "q1"
+    - "q2"
+    - "q3"
+    - "q4"
+    - "financial results"
+    - "investor day"
+    - "shareholder"
+    - "conference call"
+    - "webinar"
+    - "hearing"
+    - "trial"
+    - "antitrust"
+    - "testimony"
+
+youtube_channels:
+  - id: "UCE_M8A5yxnL465_QV9TWQUw"
+    name: "Apple"
+    category: "Hardware & Consumer Tech"
+    company: "Apple"
+    default_duration_minutes: 120
+    canonical_time: "10:00"
+    canonical_tz: "America/Los_Angeles"
+    livestream_hub: "https://www.youtube.com/@Apple/streams"
+
+  - id: "UCt2RR5sMvXveF0wO_q_Nq8w"
+    name: "Made by Google"
+    category: "Hardware & Consumer Tech"
+    company: "Google"
+    default_duration_minutes: 120
+    canonical_time: "10:00"
+    canonical_tz: "America/Los_Angeles"
+    livestream_hub: "https://www.youtube.com/@madebygoogle/streams"
+
+  - id: "UC_x5XG1OV2P6uZZ5FSM9Ttw"
+    name: "Google"
+    category: "AI & Software"
+    company: "Google"
+    default_duration_minutes: 120
+    canonical_time: "10:00"
+    canonical_tz: "America/Los_Angeles"
+    livestream_hub: "https://www.youtube.com/@Google/streams"
+
+  - id: "UCWwgaK7x0_W4LXZq24WBnLQ"
+    name: "Samsung"
+    category: "Hardware & Consumer Tech"
+    company: "Samsung"
+    default_duration_minutes: 90
+    canonical_time: "10:00"
+    canonical_tz: "America/New_York"
+    livestream_hub: "https://www.youtube.com/@Samsung/streams"
+
+  - id: "UCvKQEn-TuTlow4224Bh-vSw"
+    name: "OpenAI"
+    category: "AI & LLMs"
+    company: "OpenAI"
+    default_duration_minutes: 60
+    canonical_time: "10:00"
+    canonical_tz: "America/Los_Angeles"
+    livestream_hub: "https://www.youtube.com/@OpenAI/streams"
+
+  - id: "UCrhJgi4n1i-Vf3hT90mB3uQ"
+    name: "Microsoft"
+    category: "AI & Software"
+    company: "Microsoft"
+    default_duration_minutes: 120
+    canonical_time: "09:00"
+    canonical_tz: "America/Los_Angeles"
+    livestream_hub: "https://www.youtube.com/@Microsoft/streams"
+
+  - id: "UCd6MoB9NC6uYN2grvUNT-Zg"
+    name: "Amazon Web Services"
+    category: "Data & Cloud Infrastructure"
+    company: "AWS"
+    default_duration_minutes: 120
+    canonical_time: "08:30"
+    canonical_tz: "America/Los_Angeles"
+    livestream_hub: "https://www.youtube.com/@amazonwebservices/streams"
+
+  - id: "UCJS9lqq9vSMy2846xSIW5Qw"
+    name: "Google Cloud Tech"
+    category: "Data & Cloud Infrastructure"
+    company: "Google Cloud"
+    default_duration_minutes: 120
+    canonical_time: "09:00"
+    canonical_tz: "America/Los_Angeles"
+    livestream_hub: "https://www.youtube.com/@googlecloudtech/streams"
+
+  - id: "UC3q8O3Bh2Le8Rj1-Q-_UUbA"
+    name: "Databricks"
+    category: "Data & Cloud Infrastructure"
+    company: "Databricks"
+    default_duration_minutes: 120
+    canonical_time: "09:00"
+    canonical_tz: "America/Los_Angeles"
+    livestream_hub: "https://www.youtube.com/@Databricks/streams"
+
+  - id: "UCkF5d54qZ9X57x9r816f_wA"
+    name: "Snowflake Inc."
+    category: "Data & Cloud Infrastructure"
+    company: "Snowflake"
+    default_duration_minutes: 120
+    canonical_time: "09:00"
+    canonical_tz: "America/Los_Angeles"
+    livestream_hub: "https://www.youtube.com/@SnowflakeInc/streams"
+
+  - id: "UCQG4x2hAeoV5ZkP0XG9gSjw"
+    name: "NVIDIA"
+    category: "AI & Hardware"
+    company: "NVIDIA"
+    default_duration_minutes: 120
+    canonical_time: "11:00"
+    canonical_tz: "America/Los_Angeles"
+    livestream_hub: "https://www.youtube.com/@NVIDIA/streams"

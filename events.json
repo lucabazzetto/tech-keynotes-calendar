@@ -12,6 +12,18 @@
     "source": "curated_registry"
   },
   {
+    "uid": "oracle-cloudworld-keynote-2026",
+    "title": "Oracle CloudWorld: Global Keynote (OCI, GoldenGate & Data Integration)",
+    "company": "Oracle",
+    "category": "Data & Cloud Infrastructure",
+    "start_time": "2026-09-15T09:00:00-07:00",
+    "end_time": "2026-09-15T11:30:00-07:00",
+    "stream_url": "https://www.oracle.com/cloudworld/",
+    "description": "Larry Ellison & Safra Catz present OCI generative AI infrastructure, Oracle GoldenGate streaming data replication, Autonomous Database updates, and multicloud data architectures.",
+    "location": "The Venetian, Las Vegas, NV (Livestreamed)",
+    "source": "curated_registry"
+  },
+  {
     "uid": "meta-connect-2026",
     "title": "Meta Connect: Opening Keynote",
     "company": "Meta",
@@ -21,6 +33,18 @@
     "stream_url": "https://www.metaconnect.com/",
     "description": "Mark Zuckerberg keynote covering Llama frontier models, AI smart glasses, Quest VR hardware, and spatial computing updates.",
     "location": "Menlo Park, CA (Livestreamed)",
+    "source": "curated_registry"
+  },
+  {
+    "uid": "airflow-summit-keynote-2026",
+    "title": "Airflow Summit: Opening Keynote (Airflow 3 & Modern Data Orchestration)",
+    "company": "Apache Airflow",
+    "category": "Data & Cloud Infrastructure",
+    "start_time": "2026-09-29T09:00:00-07:00",
+    "end_time": "2026-09-29T10:30:00-07:00",
+    "stream_url": "https://airflowsummit.org/",
+    "description": "Keynote by Apache Airflow core PMC and Astronomer leadership covering the architecture of Airflow 3.0, dynamic task mapping, event-driven DAG execution, and migration from legacy ETL tools (ODI/SSIS/Informatica).",
+    "location": "San Francisco, CA (Livestreamed)",
     "source": "curated_registry"
   },
   {
@@ -60,6 +84,18 @@
     "source": "curated_registry"
   },
   {
+    "uid": "github-universe-copilot-2026",
+    "title": "GitHub Universe: Opening Keynote (GitHub Copilot & Workspace AI)",
+    "company": "GitHub",
+    "category": "Software & Dev Tools",
+    "start_time": "2026-10-28T09:00:00-07:00",
+    "end_time": "2026-10-28T11:00:00-07:00",
+    "stream_url": "https://githubuniverse.com/",
+    "description": "Thomas Dohmke and GitHub leadership present major innovations in GitHub Copilot Workspace, agentic coding models, security automation, and developer platform tooling.",
+    "location": "Fort Mason Center, San Francisco, CA (Livestreamed)",
+    "source": "curated_registry"
+  },
+  {
     "uid": "tm-d433226a5e3c",
     "title": "Microsoft Ignite",
     "company": "Microsoft",
@@ -70,6 +106,18 @@
     "description": "Microsoft Ignite https://www.techmeme.com/r2/ignite.microsoft.com_en-US_home-sltGiIKe.htm?cal=1\n\nFrom Techmeme's event calendar http://www.techmeme.com/events",
     "location": "San Francisco",
     "source": "techmeme_feed"
+  },
+  {
+    "uid": "microsoft-ignite-copilot-2026",
+    "title": "Microsoft Ignite: Opening Keynote (M365 Copilot & Fabric Data Platform)",
+    "company": "Microsoft",
+    "category": "AI & Software",
+    "start_time": "2026-11-17T09:00:00-08:00",
+    "end_time": "2026-11-17T11:00:00-08:00",
+    "stream_url": "https://ignite.microsoft.com/",
+    "description": "Satya Nadella presents enterprise M365 Copilot capabilities, Copilot Studio autonomous agents, and Microsoft Fabric real-time data pipelines.",
+    "location": "McCormick Place, Chicago, IL (Livestreamed)",
+    "source": "curated_registry"
   },
   {
     "uid": "tm-8813883d213a",

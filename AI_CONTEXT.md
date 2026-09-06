@@ -130,8 +130,7 @@ git push origin main
 │   └── sync_calendar.yml     # GitHub Actions workflow (runs every 6h and deploys to gh-pages)
 ├── requirements.txt          # Python dependencies
 ├── README.md                 # User-facing guide and calendar subscription instructions
-├── AI_CONTEXT.md             # This agent instruction manual
-└── CLAUDE.md                 # Quick commands & guidelines for Claude Code
+└── AI_CONTEXT.md             # Primary multi-model instruction manual
 ```
 
 ---
@@ -150,3 +149,5 @@ git push origin main
 | 2026-09-06 | Antigravity (Gemini) | Add Copilot, Oracle & Airflow | Added GitHub Universe, Oracle CloudWorld, Airflow Summit, and M365 Copilot keynotes with live YouTube feeds and Techmeme keyword filters. |
 
 | 2026-09-06 | Antigravity (Gemini) | Decouple build from main | Removed automated bot commits to main; pipeline publishes exclusively to gh-pages to ensure 100% human-authored main branch. |
+
+| 2026-09-06 | Antigravity (Gemini) | Remove redundant CLAUDE.md | Consolidated all agent guidelines into single authoritative AI_CONTEXT.md file. |

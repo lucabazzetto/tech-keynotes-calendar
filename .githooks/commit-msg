@@ -17,7 +17,7 @@ if ! [[ "$COMMIT_MSG" =~ $PATTERN ]]; then
   echo "Allowed types:"
   echo "  feat:     A new feature or extractor"
   echo "  fix:      A bug fix (e.g. timezone, parsing, regex)"
-  echo "  docs:     Documentation only (README, AI_CONTEXT, CLAUDE)"
+  echo "  docs:     Documentation only (README, AI_CONTEXT)"
   echo "  chore:    Maintenance, dependencies, config tweaks"
   echo "  ci:       CI/CD & GitHub Actions workflows"
   echo "  data:     Calendar events registry updates"

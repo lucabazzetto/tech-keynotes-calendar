@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TechAndDataKeynotes//EN
+CALSCALE:GREGORIAN
+X-WR-CALDESC:Curated keynotes: Apple, Google, Samsung, OpenAI, AWS, Databr
+ icks, Snowflake, NVIDIA. Exact times & livestream links.
+X-WR-CALNAME:Tech & Data Keynotes
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+SUMMARY:[Apple] Test Keynote
+DTSTART:20260907T090620Z
+DTEND:20260907T110620Z
+DTSTAMP:20260906T090620Z
+UID:test-unit-1
+CATEGORIES:Hardware & Consumer Tech,Apple,Tech Keynote
+DESCRIPTION:Unit test description\n\n🔴 Watch Live Stream: https://examp
+ le.com/stream\n🏢 Company: Apple\n🏷️ Category: Hardware & Consumer 
+ Tech\n📡 Pipeline Source: curated
+LOCATION:Livestream - https://example.com/stream
+STATUS:CONFIRMED
+URL:https://example.com/stream
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Keynote Starting Soon: [Apple] Test Keynote
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

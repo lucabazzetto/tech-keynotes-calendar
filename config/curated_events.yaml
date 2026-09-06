@@ -150,3 +150,46 @@ events:
   description: Anthropic developer event covering Claude Code integration, agentic
     frameworks, context caching improvements, and multimodal developer APIs.
   location: San Francisco, CA (Livestreamed)
+- uid: github-universe-copilot-2026
+  title: 'GitHub Universe: Opening Keynote (GitHub Copilot & Workspace AI)'
+  company: GitHub
+  category: Software & Dev Tools
+  start_time: '2026-10-28T09:00:00-07:00'
+  end_time: '2026-10-28T11:00:00-07:00'
+  stream_url: https://githubuniverse.com/
+  description: Thomas Dohmke and GitHub leadership present major innovations in GitHub
+    Copilot Workspace, agentic coding models, security automation, and developer platform
+    tooling.
+  location: Fort Mason Center, San Francisco, CA (Livestreamed)
+- uid: oracle-cloudworld-keynote-2026
+  title: 'Oracle CloudWorld: Global Keynote (OCI, GoldenGate & Data Integration)'
+  company: Oracle
+  category: Data & Cloud Infrastructure
+  start_time: '2026-09-15T09:00:00-07:00'
+  end_time: '2026-09-15T11:30:00-07:00'
+  stream_url: https://www.oracle.com/cloudworld/
+  description: Larry Ellison & Safra Catz present OCI generative AI infrastructure,
+    Oracle GoldenGate streaming data replication, Autonomous Database updates, and
+    multicloud data architectures.
+  location: The Venetian, Las Vegas, NV (Livestreamed)
+- uid: airflow-summit-keynote-2026
+  title: 'Airflow Summit: Opening Keynote (Airflow 3 & Modern Data Orchestration)'
+  company: Apache Airflow
+  category: Data & Cloud Infrastructure
+  start_time: '2026-09-29T09:00:00-07:00'
+  end_time: '2026-09-29T10:30:00-07:00'
+  stream_url: https://airflowsummit.org/
+  description: Keynote by Apache Airflow core PMC and Astronomer leadership covering
+    the architecture of Airflow 3.0, dynamic task mapping, event-driven DAG execution,
+    and migration from legacy ETL tools (ODI/SSIS/Informatica).
+  location: San Francisco, CA (Livestreamed)
+- uid: microsoft-ignite-copilot-2026
+  title: 'Microsoft Ignite: Opening Keynote (M365 Copilot & Fabric Data Platform)'
+  company: Microsoft
+  category: AI & Software
+  start_time: '2026-11-17T09:00:00-08:00'
+  end_time: '2026-11-17T11:00:00-08:00'
+  stream_url: https://ignite.microsoft.com/
+  description: Satya Nadella presents enterprise M365 Copilot capabilities, Copilot
+    Studio autonomous agents, and Microsoft Fabric real-time data pipelines.
+  location: McCormick Place, Chicago, IL (Livestreamed)

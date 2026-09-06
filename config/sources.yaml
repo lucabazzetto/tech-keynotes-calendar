@@ -26,6 +26,24 @@ techmeme:
   - Claude Keynote
   - Claude Showcase
   - Anthropic Claude
+  - GitHub
+  - GitHub Event
+  - GitHub Keynote
+  - Oracle
+  - Oracle Event
+  - Oracle Keynote
+  - Apache Airflow
+  - Apache Airflow Event
+  - Apache Airflow Keynote
+  - GitHub Universe
+  - GitHub Copilot
+  - Oracle CloudWorld
+  - CloudWorld
+  - Oracle Cloud
+  - Airflow Summit
+  - Astronomer
+  - M365 Copilot
+  - Microsoft Copilot
   negative_keywords:
   - earnings
   - quarterly
@@ -139,3 +157,27 @@ youtube_channels:
   canonical_time: '10:00'
   canonical_tz: America/Los_Angeles
   livestream_hub: https://www.youtube.com/channel/UCrDwWp7EBBv4NwvScIpBDOA/streams
+- id: UC7c3Kb6jYCRj4JOHHZTxKsQ
+  name: GitHub
+  category: Software & Dev Tools
+  company: GitHub
+  default_duration_minutes: 90
+  canonical_time: 09:00
+  canonical_tz: America/Los_Angeles
+  livestream_hub: https://www.youtube.com/channel/UC7c3Kb6jYCRj4JOHHZTxKsQ/streams
+- id: UCHCThmyZ-2yWkv0UVeBDdnQ
+  name: Oracle
+  category: Data & Cloud Infrastructure
+  company: Oracle
+  default_duration_minutes: 90
+  canonical_time: 09:00
+  canonical_tz: America/Los_Angeles
+  livestream_hub: https://www.youtube.com/channel/UCHCThmyZ-2yWkv0UVeBDdnQ/streams
+- id: UCcPZvKtWyYq6d_kCbjyTRSQ
+  name: Astronomer / Apache Airflow
+  category: Data & Cloud Infrastructure
+  company: Apache Airflow
+  default_duration_minutes: 90
+  canonical_time: 09:00
+  canonical_tz: America/Los_Angeles
+  livestream_hub: https://www.youtube.com/channel/UCcPZvKtWyYq6d_kCbjyTRSQ/streams

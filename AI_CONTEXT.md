@@ -146,3 +146,5 @@ git push origin main
 | 2026-09-06 | Antigravity (Gemini) | Scenario C Management CLI | Created `src/manage.py` with automatic YouTube channel ID resolution and documented historical pattern inference recipe. |
 
 | 2026-09-06 | Antigravity (Gemini) | Add Anthropic & Claude tracking | Registered Anthropic YouTube channel ID, added Claude keywords to Techmeme filter, and registered Autumn 2026 and Spring 2027 keynotes. |
+
+| 2026-09-06 | Antigravity (Gemini) | Add Copilot, Oracle & Airflow | Added GitHub Universe, Oracle CloudWorld, Airflow Summit, and M365 Copilot keynotes with live YouTube feeds and Techmeme keyword filters. |

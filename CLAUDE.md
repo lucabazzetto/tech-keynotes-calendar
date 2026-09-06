@@ -7,9 +7,14 @@ Refer to `AI_CONTEXT.md` for complete architectural context and change log.
 - Run unit tests: `.venv/bin/python -m unittest discover tests`
 - Format code / inspect: `git status`
 
-## Architecture Highlights
-- `config/sources.yaml`: Monitored channels, Techmeme filters, canonical keynote hours.
-- `config/curated_events.yaml`: Fixed annual keynotes (Apple, AWS re:Invent, Databricks, etc.).
-- `src/extractors/`: Modular parsers for Curated, Techmeme, and YouTube feeds.
-- `src/generator.py`: RFC 5545 iCalendar builder (`public/tech_events.ics`), JSON, and HTML dashboard.
-- Output: strictly exact broadcast hours in UTC (no all-day events), livestream links in location & description.
+## Mandatory Commit Protocol
+1. **Commit after every logical modification.** Never leave unstaged or uncommitted changes.
+2. **Follow Conventional Commits 1.0.0 strictly**:
+   - `feat(scope): concise imperative description`
+   - `fix(scope): concise imperative description`
+   - `docs(scope): concise imperative description`
+   - `chore(scope): concise imperative description`
+   - `ci(scope): concise imperative description`
+   - `data(scope): concise imperative description`
+3. Enforced by `.githooks/commit-msg` (active via `git config core.hooksPath .githooks`).
+4. Update the change log table in `AI_CONTEXT.md` on significant updates.

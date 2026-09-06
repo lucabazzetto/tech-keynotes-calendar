@@ -6,8 +6,11 @@ on:
   workflow_dispatch:      # Enable manual run from GitHub UI
   push:
     branches:
-      - master
       - main
+    paths-ignore:
+      - 'README.md'
+      - 'AI_CONTEXT.md'
+      - 'CLAUDE.md'
 
 permissions:
   contents: write
@@ -15,7 +18,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: "sync-pipeline"
   cancel-in-progress: false
 
 jobs:
@@ -36,9 +39,33 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run pipeline
+      - name: Run test suite
+        run: |
+          python -m unittest discover tests
+
+      - name: Run keynote pipeline
         run: |
           python -m src.main
+
+      - name: Generate dynamic commit message
+        id: commit_info
+        run: |
+          EVENT_COUNT=$(python3 -c "import json; data=json.load(open('public/events.json')); print(len(data))" 2>/dev/null || echo "0")
+          TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
+          echo "title=chore(calendar): sync keynote events feed (${EVENT_COUNT} active events)" >> "$GITHUB_OUTPUT"
+          echo "body=Automated sync on ${TIMESTAMP} across YouTube live feeds, filtered Techmeme, and curated registry. [skip ci]" >> "$GITHUB_OUTPUT"
+
+      - name: Commit updated public assets to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/
+          if git diff --staged --quiet; then
+            echo "No data changes to commit to main branch."
+          else
+            git commit -m "${{ steps.commit_info.outputs.title }}" -m "${{ steps.commit_info.outputs.body }}"
+            git push origin main
+          fi
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
@@ -46,4 +73,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           keep_files: false
-          commit_message: "Auto-update keynote calendar [skip ci]"
+          commit_message: "${{ steps.commit_info.outputs.title }}\n\n${{ steps.commit_info.outputs.body }}"

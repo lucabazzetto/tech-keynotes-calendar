@@ -1,7 +1,7 @@
 # AI Agent Context & Operational Handbook (AI_CONTEXT.md)
 
 > **For LLMs & AI Coding Assistants (Gemini, Claude Code, Codex, Cursor, Antigravity):**
-> Read this document first. It explains the project's purpose, architectural decisions, file structure, operational procedures, and how you should update settings and record changes.
+> Read this document first. It defines the project's architecture, philosophy, operational procedures, and **mandatory commit standards**.
 
 ---
 
@@ -19,10 +19,34 @@ This project (`tech-keynotes-calendar`) is an automated, serverless ETL data pip
 
 ---
 
-## 2. Directory Structure & File Map
+## 2. Mandatory Git Commit Standards (State-of-the-Art)
+
+> [!IMPORTANT]
+> **Commit Frequency & Meaning Rule**:
+> 1. **Commit on Every Modification:** Never leave unstaged or uncommitted code after finishing a task. Every logical unit of work (e.g. adding an event, modifying a parser, fixing a bug, updating docs) MUST be committed immediately.
+> 2. **Conventional Commits 1.0.0 Specification:** All commit messages must follow the format:
+>    `<type>(<optional-scope>): <imperative summary>`
+>
+>    **Allowed Types:**
+>    - `feat`: A new feature or extractor (e.g. `feat(extractors): add Twitch stream parser`)
+>    - `fix`: Bug fix (e.g. `fix(techmeme): resolve daylight saving time offset calculation`)
+>    - `docs`: Documentation updates (`docs: update subscription guide in README`)
+>    - `chore`: Routine maintenance, dependencies, configuration tweaks (`chore(config): add 2027 keynote dates`)
+>    - `ci`: CI/CD & GitHub Actions (`ci(workflow): dynamic commit messages on auto-sync`)
+>    - `data`: Pipeline registry updates (`data(curated): add OpenAI Autumn event`)
+>    - `refactor`: Code restructuring without functional changes
+>    - `test`: Adding or correcting unit tests
+> 3. **Commit Body:** When making structural or non-obvious changes, include a detailed commit body explaining *why* the change was made and *what* was tested.
+> 4. **Git Hook Verification:** A pre-configured hook in `.githooks/commit-msg` automatically enforces this format. Ensure hooks are active with `git config core.hooksPath .githooks`.
+
+---
+
+## 3. Directory Structure & File Map
 
 ```text
 /Users/luca/tech-keynotes-calendar/
+├── .githooks/
+│   └── commit-msg            # Client-side hook enforcing Conventional Commits
 ├── config/
 │   ├── sources.yaml          # Monitored YouTube channel IDs, Techmeme filter rules, canonical company hours
 │   └── curated_events.yaml   # Verified annual flagship keynotes and data engineering summits
@@ -46,12 +70,12 @@ This project (`tech-keynotes-calendar`) is an automated, serverless ETL data pip
 ├── requirements.txt          # Python dependencies (icalendar, feedparser, pyyaml, requests, pytz, etc.)
 ├── README.md                 # User-facing guide and calendar subscription instructions
 ├── AI_CONTEXT.md             # This agent instruction manual
-└── CLAUDE.md                 # Link / instructions for Claude Code
+└── CLAUDE.md                 # Quick commands & guidelines for Claude Code
 ```
 
 ---
 
-## 3. Standard Procedures for AI Agents
+## 4. Standard Procedures for AI Agents
 
 ### Running Locally
 Always execute commands using the local virtual environment:
@@ -102,7 +126,7 @@ Edit `config/sources.yaml` under `youtube_channels`:
 
 ---
 
-## 4. AI Change Log & Settings History
+## 5. AI Change Log & Settings History
 
 > [!NOTE]
 > Whenever you (Gemini, Claude, Codex, or another AI) modify configurations, extractors, or pipeline logic, log your change below with a timestamp, the tool name, and what was altered.
@@ -111,3 +135,4 @@ Edit `config/sources.yaml` under `youtube_channels`:
 | :--- | :--- | :--- | :--- |
 | 2026-09-06 | Antigravity (Gemini) | Initial pipeline creation | Established architecture, extractors (Techmeme, YouTube, Curated), RFC 5545 generator, GitHub Actions, and Web UI. |
 | 2026-09-06 | Antigravity (Gemini) | Workspace relocation | Migrated project to `/Users/luca/tech-keynotes-calendar`, created `AI_CONTEXT.md` & `CLAUDE.md`. |
+| 2026-09-06 | Antigravity (Gemini) | Conventional Commits enforcement | Added `.githooks/commit-msg`, upgraded `.github/workflows/sync_calendar.yml` with dynamic meaningful commit generation, and codified commit rules. |

@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+# Git hook enforcing Conventional Commits specification
+
+COMMIT_MSG_FILE="$1"
+COMMIT_MSG=$(head -n 1 "$COMMIT_MSG_FILE")
+
+# Conventional commit pattern: <type>(<scope>): <summary>
+PATTERN="^(feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert|data)(\([a-zA-Z0-9_-]+\))?!?: .+$"
+
+if ! [[ "$COMMIT_MSG" =~ $PATTERN ]]; then
+  echo ""
+  echo "❌ Error: Invalid commit message format."
+  echo ""
+  echo "Commit messages must follow Conventional Commits standard:"
+  echo "  <type>(<optional-scope>): <concise description>"
+  echo ""
+  echo "Allowed types:"
+  echo "  feat:     A new feature or extractor"
+  echo "  fix:      A bug fix (e.g. timezone, parsing, regex)"
+  echo "  docs:     Documentation only (README, AI_CONTEXT, CLAUDE)"
+  echo "  chore:    Maintenance, dependencies, config tweaks"
+  echo "  ci:       CI/CD & GitHub Actions workflows"
+  echo "  data:     Calendar events registry updates"
+  echo "  refactor: Code change that neither fixes a bug nor adds a feature"
+  echo "  test:     Adding or correcting unit tests"
+  echo ""
+  echo "Examples:"
+  echo "  feat(youtube): add live stream extractor for Apple and Samsung"
+  echo "  chore(events): update AWS re:Invent keynote dates"
+  echo "  fix(techmeme): normalize all-day events to UTC keynote window"
+  echo ""
+  echo "Your message was:"
+  echo "  \"$COMMIT_MSG\""
+  echo ""
+  exit 1
+fi

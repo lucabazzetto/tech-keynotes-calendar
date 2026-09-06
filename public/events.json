@@ -48,6 +48,18 @@
     "source": "curated_registry"
   },
   {
+    "uid": "anthropic-claude-frontier-2026",
+    "title": "Anthropic: Claude Frontier Showcase & Keynote",
+    "company": "Anthropic",
+    "category": "AI & LLMs",
+    "start_time": "2026-10-22T10:00:00-07:00",
+    "end_time": "2026-10-22T11:30:00-07:00",
+    "stream_url": "https://www.youtube.com/@anthropic-ai/streams",
+    "description": "Dario Amodei and the Anthropic research team present frontier Claude reasoning architectures, computer-use agentic capabilities, and developer platform expansions.",
+    "location": "San Francisco, CA (Livestreamed)",
+    "source": "curated_registry"
+  },
+  {
     "uid": "tm-d433226a5e3c",
     "title": "Microsoft Ignite",
     "company": "Microsoft",
@@ -129,6 +141,18 @@
     "stream_url": "https://www.nvidia.com/gtc/",
     "description": "Jensen Huang presents groundbreaking GPU architectures, CUDA-X data science libraries, Blackwell/Rubin accelerators, and enterprise AI.",
     "location": "SAP Center, San Jose, CA (Livestreamed)",
+    "source": "curated_registry"
+  },
+  {
+    "uid": "anthropic-claude-developer-2027",
+    "title": "Anthropic: Claude Spring Developer Keynote",
+    "company": "Anthropic",
+    "category": "AI & LLMs",
+    "start_time": "2027-03-25T10:00:00-07:00",
+    "end_time": "2027-03-25T11:30:00-07:00",
+    "stream_url": "https://www.youtube.com/@anthropic-ai/streams",
+    "description": "Anthropic developer event covering Claude Code integration, agentic frameworks, context caching improvements, and multimodal developer APIs.",
+    "location": "San Francisco, CA (Livestreamed)",
     "source": "curated_registry"
   },
   {

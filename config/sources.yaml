@@ -22,6 +22,10 @@ techmeme:
   - Anthropic
   - Anthropic Event
   - Anthropic Keynote
+  - Claude
+  - Claude Keynote
+  - Claude Showcase
+  - Anthropic Claude
   negative_keywords:
   - earnings
   - quarterly

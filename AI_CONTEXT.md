@@ -144,3 +144,5 @@ git push origin main
 | 2026-09-06 | Antigravity (Gemini) | Workspace relocation | Migrated project to `/Users/luca/tech-keynotes-calendar`, created `AI_CONTEXT.md` & `CLAUDE.md`. |
 | 2026-09-06 | Antigravity (Gemini) | Conventional Commits enforcement | Added `.githooks/commit-msg`, upgraded `.github/workflows/sync_calendar.yml` with dynamic meaningful commit generation. |
 | 2026-09-06 | Antigravity (Gemini) | Scenario C Management CLI | Created `src/manage.py` with automatic YouTube channel ID resolution and documented historical pattern inference recipe. |
+
+| 2026-09-06 | Antigravity (Gemini) | Add Anthropic & Claude tracking | Registered Anthropic YouTube channel ID, added Claude keywords to Techmeme filter, and registered Autumn 2026 and Spring 2027 keynotes. |

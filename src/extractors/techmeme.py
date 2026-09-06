@@ -44,6 +44,8 @@ def load_techmeme_events(config_path: str = "config/sources.yaml") -> List[Keyno
         "microsoft": (9, 0, "America/Los_Angeles", 120),
         "nvidia": (11, 0, "America/Los_Angeles", 120),
         "meta": (10, 0, "America/Los_Angeles", 120),
+        "anthropic": (10, 0, "America/Los_Angeles", 90),
+        "claude": (10, 0, "America/Los_Angeles", 90),
     }
 
     try:

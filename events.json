@@ -72,6 +72,18 @@
     "source": "curated_registry"
   },
   {
+    "uid": "tm-1be49d0f2dae",
+    "title": "Nvidia GTC Berlin",
+    "company": "NVIDIA",
+    "category": "AI & LLMs",
+    "start_time": "2026-10-20T11:00:00-07:00",
+    "end_time": "2026-10-20T13:00:00-07:00",
+    "stream_url": "https://www.techmeme.com/r2/www.nvidia.com_en-eu_gtc__regcode_no-ncid_amp_ncid_no-ncid-VfnFplvW.htm?cal=1",
+    "description": "Nvidia GTC Berlin https://www.techmeme.com/r2/www.nvidia.com_en-eu_gtc__regcode_no-ncid_amp_ncid_no-ncid-VfnFplvW.htm?cal=1\n\nFrom Techmeme's event calendar http://www.techmeme.com/events",
+    "location": "Berlin",
+    "source": "techmeme_feed"
+  },
+  {
     "uid": "anthropic-claude-frontier-2026",
     "title": "Anthropic: Claude Frontier Showcase & Keynote",
     "company": "Anthropic",

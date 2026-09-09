@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[Apple] Apple Event: Special Keynote Showcase
 DTSTART:20260909T170000Z
 DTEND:20260909T190000Z
-DTSTAMP:20260909T101634Z
+DTSTAMP:20260909T152740Z
 UID:apple-fall-keynote-2026
 CATEGORIES:Hardware & Consumer Tech,Apple,Tech Keynote
 DESCRIPTION:Official Apple Special Event. Expected announcements: New flag
@@ -36,7 +36,7 @@ SUMMARY:[Oracle] Oracle CloudWorld: Global Keynote (OCI\, GoldenGate & Dat
  a Integration)
 DTSTART:20260915T160000Z
 DTEND:20260915T183000Z
-DTSTAMP:20260909T101634Z
+DTSTAMP:20260909T152740Z
 UID:oracle-cloudworld-keynote-2026
 CATEGORIES:Data & Cloud Infrastructure,Oracle,Tech Keynote
 DESCRIPTION:Larry Ellison & Safra Catz present OCI generative AI infrastru
@@ -59,7 +59,7 @@ BEGIN:VEVENT
 SUMMARY:[Meta] Meta Connect: Opening Keynote
 DTSTART:20260923T170000Z
 DTEND:20260923T190000Z
-DTSTAMP:20260909T101634Z
+DTSTAMP:20260909T152740Z
 UID:meta-connect-2026
 CATEGORIES:AI & Hardware,Meta,Tech Keynote
 DESCRIPTION:Mark Zuckerberg keynote covering Llama frontier models\, AI sm
@@ -80,7 +80,7 @@ SUMMARY:[Apache Airflow] Airflow Summit: Opening Keynote (Airflow 3 & Mode
  rn Data Orchestration)
 DTSTART:20260929T160000Z
 DTEND:20260929T173000Z
-DTSTAMP:20260909T101634Z
+DTSTAMP:20260909T152740Z
 UID:airflow-summit-keynote-2026
 CATEGORIES:Data & Cloud Infrastructure,Apache Airflow,Tech Keynote
 DESCRIPTION:Keynote by Apache Airflow core PMC and Astronomer leadership c
@@ -103,7 +103,7 @@ BEGIN:VEVENT
 SUMMARY:[OpenAI] OpenAI DevDay
 DTSTART:20260929T170000Z
 DTEND:20260929T180000Z
-DTSTAMP:20260909T101634Z
+DTSTAMP:20260909T152740Z
 UID:tm-5d85d3a2aca8
 CATEGORIES:AI & LLMs,OpenAI,Tech Keynote
 DESCRIPTION:OpenAI DevDay https://www.techmeme.com/r2/openai.com_index_dev
@@ -126,7 +126,7 @@ BEGIN:VEVENT
 SUMMARY:[OpenAI] OpenAI DevDay: Opening Keynote
 DTSTART:20261006T170000Z
 DTEND:20261006T183000Z
-DTSTAMP:20260909T101634Z
+DTSTAMP:20260909T152740Z
 UID:openai-devday-2026
 CATEGORIES:AI & LLMs,OpenAI,Tech Keynote
 DESCRIPTION:OpenAI Developer Day keynote. Next-generation reasoning models
@@ -148,7 +148,7 @@ BEGIN:VEVENT
 SUMMARY:[NVIDIA] Nvidia GTC Berlin
 DTSTART:20261020T180000Z
 DTEND:20261020T200000Z
-DTSTAMP:20260909T101634Z
+DTSTAMP:20260909T152740Z
 UID:tm-1be49d0f2dae
 CATEGORIES:AI & LLMs,NVIDIA,Tech Keynote
 DESCRIPTION:Nvidia GTC Berlin https://www.techmeme.com/r2/www.nvidia.com_e
@@ -172,7 +172,7 @@ BEGIN:VEVENT
 SUMMARY:[Anthropic] Anthropic: Claude Frontier Showcase & Keynote
 DTSTART:20261022T170000Z
 DTEND:20261022T183000Z
-DTSTAMP:20260909T101634Z
+DTSTAMP:20260909T152740Z
 UID:anthropic-claude-frontier-2026
 CATEGORIES:AI & LLMs,Anthropic,Tech Keynote
 DESCRIPTION:Dario Amodei and the Anthropic research team present frontier 
@@ -196,7 +196,7 @@ SUMMARY:[GitHub] GitHub Universe: Opening Keynote (GitHub Copilot & Worksp
  ace AI)
 DTSTART:20261028T160000Z
 DTEND:20261028T180000Z
-DTSTAMP:20260909T101634Z
+DTSTAMP:20260909T152740Z
 UID:github-universe-copilot-2026
 CATEGORIES:Software & Dev Tools,GitHub,Tech Keynote
 DESCRIPTION:Thomas Dohmke and GitHub leadership present major innovations 
@@ -219,7 +219,7 @@ BEGIN:VEVENT
 SUMMARY:[Microsoft] Microsoft Ignite
 DTSTART:20261116T170000Z
 DTEND:20261116T190000Z
-DTSTAMP:20260909T101634Z
+DTSTAMP:20260909T152740Z
 UID:tm-d433226a5e3c
 CATEGORIES:Hardware & Consumer Tech,Microsoft,Tech Keynote
 DESCRIPTION:Microsoft Ignite https://www.techmeme.com/r2/ignite.microsoft.
@@ -244,7 +244,7 @@ SUMMARY:[Microsoft] Microsoft Ignite: Opening Keynote (M365 Copilot & Fabr
  ic Data Platform)
 DTSTART:20261117T170000Z
 DTEND:20261117T190000Z
-DTSTAMP:20260909T101634Z
+DTSTAMP:20260909T152740Z
 UID:microsoft-ignite-copilot-2026
 CATEGORIES:AI & Software,Microsoft,Tech Keynote
 DESCRIPTION:Satya Nadella presents enterprise M365 Copilot capabilities\, 
@@ -267,7 +267,7 @@ BEGIN:VEVENT
 SUMMARY:[AWS] AWS re:Invent
 DTSTART:20261129T163000Z
 DTEND:20261129T183000Z
-DTSTAMP:20260909T101634Z
+DTSTAMP:20260909T152740Z
 UID:tm-8813883d213a
 CATEGORIES:Data & Cloud Infrastructure,AWS,Tech Keynote
 DESCRIPTION:AWS re:Invent https://www.techmeme.com/r2/aws.amazon.com_event
@@ -291,7 +291,7 @@ BEGIN:VEVENT
 SUMMARY:[AWS] AWS re:Invent: CEO Keynote
 DTSTART:20261201T163000Z
 DTEND:20261201T190000Z
-DTSTAMP:20260909T101634Z
+DTSTAMP:20260909T152740Z
 UID:aws-reinvent-ceo-keynote-2026
 CATEGORIES:Data & Cloud Infrastructure,AWS,Tech Keynote
 DESCRIPTION:AWS re:Invent Global Keynote. Major infrastructure\, EC2\, Bed
@@ -313,7 +313,7 @@ BEGIN:VEVENT
 SUMMARY:[AWS] AWS re:Invent: Data & AI Keynote (Dr. Swami Sivasubramanian)
 DTSTART:20261202T163000Z
 DTEND:20261202T183000Z
-DTSTAMP:20260909T101634Z
+DTSTAMP:20260909T152740Z
 UID:aws-reinvent-data-ai-keynote-2026
 CATEGORIES:Data & Cloud Infrastructure,AWS,Tech Keynote
 DESCRIPTION:Dedicated Data & AI Keynote. Updates on Amazon Redshift\, Open
@@ -336,7 +336,7 @@ BEGIN:VEVENT
 SUMMARY:[AWS] AWS re:Invent: Dr. Werner Vogels CTO Keynote
 DTSTART:20261203T163000Z
 DTEND:20261203T183000Z
-DTSTAMP:20260909T101634Z
+DTSTAMP:20260909T152740Z
 UID:aws-reinvent-werner-vogels-2026
 CATEGORIES:Data & Cloud Infrastructure,AWS,Tech Keynote
 DESCRIPTION:Dr. Werner Vogels keynote focusing on distributed systems arch
@@ -359,7 +359,7 @@ BEGIN:VEVENT
 SUMMARY:[Samsung] Samsung Galaxy Unpacked
 DTSTART:20270120T180000Z
 DTEND:20270120T193000Z
-DTSTAMP:20260909T101634Z
+DTSTAMP:20260909T152740Z
 UID:samsung-unpacked-2027
 CATEGORIES:Hardware & Consumer Tech,Samsung,Tech Keynote
 DESCRIPTION:Flagship Samsung Galaxy S-series reveal\, Galaxy AI on-device 
@@ -380,7 +380,7 @@ BEGIN:VEVENT
 SUMMARY:[NVIDIA] NVIDIA GTC: Jensen Huang Global Keynote
 DTSTART:20270316T180000Z
 DTEND:20270316T200000Z
-DTSTAMP:20260909T101634Z
+DTSTAMP:20260909T152740Z
 UID:nvidia-gtc-2027
 CATEGORIES:AI & Hardware,NVIDIA,Tech Keynote
 DESCRIPTION:Jensen Huang presents groundbreaking GPU architectures\, CUDA-
@@ -403,7 +403,7 @@ BEGIN:VEVENT
 SUMMARY:[Anthropic] Anthropic: Claude Spring Developer Keynote
 DTSTART:20270325T170000Z
 DTEND:20270325T183000Z
-DTSTAMP:20260909T101634Z
+DTSTAMP:20260909T152740Z
 UID:anthropic-claude-developer-2027
 CATEGORIES:AI & LLMs,Anthropic,Tech Keynote
 DESCRIPTION:Anthropic developer event covering Claude Code integration\, a
@@ -426,7 +426,7 @@ BEGIN:VEVENT
 SUMMARY:[Google Cloud] Google Cloud Next: Opening Keynote
 DTSTART:20270414T160000Z
 DTEND:20270414T180000Z
-DTSTAMP:20260909T101634Z
+DTSTAMP:20260909T152740Z
 UID:google-cloud-next-2027
 CATEGORIES:Data & Cloud Infrastructure,Google Cloud,Tech Keynote
 DESCRIPTION:Sundar Pichai & Thomas Kurian keynote on BigQuery innovations
@@ -449,7 +449,7 @@ BEGIN:VEVENT
 SUMMARY:[Google] Google I/O: Global Keynote
 DTSTART:20270512T170000Z
 DTEND:20270512T190000Z
-DTSTAMP:20260909T101634Z
+DTSTAMP:20260909T152740Z
 UID:google-io-2027
 CATEGORIES:AI & Software,Google,Tech Keynote
 DESCRIPTION:Google I/O keynote. Android major release\, Gemini model upgra
@@ -471,7 +471,7 @@ BEGIN:VEVENT
 SUMMARY:[Apple] Apple WWDC: Keynote Showcase
 DTSTART:20270608T170000Z
 DTEND:20270608T190000Z
-DTSTAMP:20260909T101634Z
+DTSTAMP:20260909T152740Z
 UID:apple-wwdc-2027
 CATEGORIES:Software & AI,Apple,Tech Keynote
 DESCRIPTION:Apple Worldwide Developers Conference keynote. Reveals for iOS
@@ -493,7 +493,7 @@ BEGIN:VEVENT
 SUMMARY:[Databricks] Databricks Data + AI Summit: Opening Keynote
 DTSTART:20270616T160000Z
 DTEND:20270616T183000Z
-DTSTAMP:20260909T101634Z
+DTSTAMP:20260909T152740Z
 UID:databricks-summit-2027
 CATEGORIES:Data & Cloud Infrastructure,Databricks,Tech Keynote
 DESCRIPTION:Matei Zaharia & Ali Ghodsi present Apache Spark\, Delta Lake\,
@@ -516,7 +516,7 @@ BEGIN:VEVENT
 SUMMARY:[Snowflake] Snowflake Summit: Opening Keynote
 DTSTART:20270623T160000Z
 DTEND:20270623T180000Z
-DTSTAMP:20260909T101634Z
+DTSTAMP:20260909T152740Z
 UID:snowflake-summit-2027
 CATEGORIES:Data & Cloud Infrastructure,Snowflake,Tech Keynote
 DESCRIPTION:Snowflake Summit Keynote. Cortex AI\, Iceberg tables\, Snowpar

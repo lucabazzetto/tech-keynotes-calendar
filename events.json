@@ -12,6 +12,18 @@
     "source": "curated_registry"
   },
   {
+    "uid": "yt-0kOXsQUNzss",
+    "title": "GitHub: GitHub Copilot Day live: new releases, real workflows, and live coding",
+    "company": "GitHub",
+    "category": "Software & Dev Tools",
+    "start_time": "2026-09-10T19:14:13+00:00",
+    "end_time": "2026-09-10T20:44:13+00:00",
+    "stream_url": "https://www.youtube.com/watch?v=0kOXsQUNzss",
+    "description": "Official live broadcast stream on YouTube for GitHub.\nWatch live at https://www.youtube.com/watch?v=0kOXsQUNzss",
+    "location": "YouTube Live - https://www.youtube.com/watch?v=0kOXsQUNzss",
+    "source": "youtube_live"
+  },
+  {
     "uid": "oracle-cloudworld-keynote-2026",
     "title": "Oracle CloudWorld: Global Keynote (OCI, GoldenGate & Data Integration)",
     "company": "Oracle",

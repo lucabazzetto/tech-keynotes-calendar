@@ -12,18 +12,6 @@
     "source": "curated_registry"
   },
   {
-    "uid": "yt-tQcOdMRIRr8",
-    "title": "AWS: Cloud Report: Quick helped us launch a side hustle | Amazon Web Services",
-    "company": "AWS",
-    "category": "Data & Cloud Infrastructure",
-    "start_time": "2026-09-15T13:51:10+00:00",
-    "end_time": "2026-09-15T15:51:10+00:00",
-    "stream_url": "https://www.youtube.com/watch?v=tQcOdMRIRr8",
-    "description": "Official live broadcast stream on YouTube for AWS.\nWatch live at https://www.youtube.com/watch?v=tQcOdMRIRr8",
-    "location": "YouTube Live - https://www.youtube.com/watch?v=tQcOdMRIRr8",
-    "source": "youtube_live"
-  },
-  {
     "uid": "oracle-cloudworld-keynote-2026",
     "title": "Oracle CloudWorld: Global Keynote (OCI, GoldenGate & Data Integration)",
     "company": "Oracle",

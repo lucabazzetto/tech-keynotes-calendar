@@ -24,6 +24,18 @@
     "source": "curated_registry"
   },
   {
+    "uid": "yt-L-alm9aL-pg",
+    "title": "Oracle: Oracle TV Presents: Oracle Health and Life Sciences Summit 2026",
+    "company": "Oracle",
+    "category": "Data & Cloud Infrastructure",
+    "start_time": "2026-09-18T21:04:14+00:00",
+    "end_time": "2026-09-18T22:34:14+00:00",
+    "stream_url": "https://www.youtube.com/watch?v=L-alm9aL-pg",
+    "description": "Official live broadcast stream on YouTube for Oracle.\nWatch live at https://www.youtube.com/watch?v=L-alm9aL-pg",
+    "location": "YouTube Live - https://www.youtube.com/watch?v=L-alm9aL-pg",
+    "source": "youtube_live"
+  },
+  {
     "uid": "meta-connect-2026",
     "title": "Meta Connect: Opening Keynote",
     "company": "Meta",

@@ -24,15 +24,27 @@
     "source": "curated_registry"
   },
   {
-    "uid": "yt-L-alm9aL-pg",
+    "uid": "yt-ZQJAFZK-KvQ",
     "title": "Oracle: Oracle TV Presents: Oracle Health and Life Sciences Summit 2026",
     "company": "Oracle",
     "category": "Data & Cloud Infrastructure",
-    "start_time": "2026-09-18T21:04:14+00:00",
-    "end_time": "2026-09-18T22:34:14+00:00",
-    "stream_url": "https://www.youtube.com/watch?v=L-alm9aL-pg",
-    "description": "Official live broadcast stream on YouTube for Oracle.\nWatch live at https://www.youtube.com/watch?v=L-alm9aL-pg",
-    "location": "YouTube Live - https://www.youtube.com/watch?v=L-alm9aL-pg",
+    "start_time": "2026-09-23T14:24:21+00:00",
+    "end_time": "2026-09-23T15:54:21+00:00",
+    "stream_url": "https://www.youtube.com/watch?v=ZQJAFZK-KvQ",
+    "description": "Official live broadcast stream on YouTube for Oracle.\nWatch live at https://www.youtube.com/watch?v=ZQJAFZK-KvQ",
+    "location": "YouTube Live - https://www.youtube.com/watch?v=ZQJAFZK-KvQ",
+    "source": "youtube_live"
+  },
+  {
+    "uid": "yt-_gF8syYr4yM",
+    "title": "AWS: Retell: Reinventing Call Center Communications with Voice-First AI | Amazon Web Services",
+    "company": "AWS",
+    "category": "Data & Cloud Infrastructure",
+    "start_time": "2026-09-23T15:15:13+00:00",
+    "end_time": "2026-09-23T17:15:13+00:00",
+    "stream_url": "https://www.youtube.com/watch?v=_gF8syYr4yM",
+    "description": "Official live broadcast stream on YouTube for AWS.\nWatch live at https://www.youtube.com/watch?v=_gF8syYr4yM",
+    "location": "YouTube Live - https://www.youtube.com/watch?v=_gF8syYr4yM",
     "source": "youtube_live"
   },
   {

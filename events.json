@@ -36,18 +36,6 @@
     "source": "youtube_live"
   },
   {
-    "uid": "yt-XJXaTaUzd-M",
-    "title": "Oracle: From Vision to Reality and the Next Era of Healthcare: Oracle Health and Life Sciences Summit 2026",
-    "company": "Oracle",
-    "category": "Data & Cloud Infrastructure",
-    "start_time": "2026-09-23T15:44:01+00:00",
-    "end_time": "2026-09-23T17:14:01+00:00",
-    "stream_url": "https://www.youtube.com/watch?v=XJXaTaUzd-M",
-    "description": "Official live broadcast stream on YouTube for Oracle.\nWatch live at https://www.youtube.com/watch?v=XJXaTaUzd-M",
-    "location": "YouTube Live - https://www.youtube.com/watch?v=XJXaTaUzd-M",
-    "source": "youtube_live"
-  },
-  {
     "uid": "meta-connect-2026",
     "title": "Meta Connect: Opening Keynote",
     "company": "Meta",
@@ -60,15 +48,15 @@
     "source": "curated_registry"
   },
   {
-    "uid": "yt-k26RJZOkPbs",
-    "title": "Oracle: Oracle TV Live: AI, Data, and Cloud for Healthcare",
+    "uid": "yt-f34j5CqNLGU",
+    "title": "Oracle: Reinventing Clinical Trials: Oracle Health and Life Sciences Summit 2026",
     "company": "Oracle",
     "category": "Data & Cloud Infrastructure",
-    "start_time": "2026-09-24T15:44:00+00:00",
-    "end_time": "2026-09-24T17:14:00+00:00",
-    "stream_url": "https://www.youtube.com/shorts/k26RJZOkPbs",
-    "description": "Official live broadcast stream on YouTube for Oracle.\nWatch live at https://www.youtube.com/shorts/k26RJZOkPbs",
-    "location": "YouTube Live - https://www.youtube.com/shorts/k26RJZOkPbs",
+    "start_time": "2026-09-24T19:26:17+00:00",
+    "end_time": "2026-09-24T20:56:17+00:00",
+    "stream_url": "https://www.youtube.com/watch?v=f34j5CqNLGU",
+    "description": "Official live broadcast stream on YouTube for Oracle.\nWatch live at https://www.youtube.com/watch?v=f34j5CqNLGU",
+    "location": "YouTube Live - https://www.youtube.com/watch?v=f34j5CqNLGU",
     "source": "youtube_live"
   },
   {

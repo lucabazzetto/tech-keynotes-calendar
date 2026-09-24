@@ -24,6 +24,30 @@
     "source": "curated_registry"
   },
   {
+    "uid": "yt-_gF8syYr4yM",
+    "title": "AWS: Retell: Reinventing Call Center Communications with Voice-First AI | Amazon Web Services",
+    "company": "AWS",
+    "category": "Data & Cloud Infrastructure",
+    "start_time": "2026-09-23T15:15:13+00:00",
+    "end_time": "2026-09-23T17:15:13+00:00",
+    "stream_url": "https://www.youtube.com/watch?v=_gF8syYr4yM",
+    "description": "Official live broadcast stream on YouTube for AWS.\nWatch live at https://www.youtube.com/watch?v=_gF8syYr4yM",
+    "location": "YouTube Live - https://www.youtube.com/watch?v=_gF8syYr4yM",
+    "source": "youtube_live"
+  },
+  {
+    "uid": "yt-XJXaTaUzd-M",
+    "title": "Oracle: From Vision to Reality and the Next Era of Healthcare: Oracle Health and Life Sciences Summit 2026",
+    "company": "Oracle",
+    "category": "Data & Cloud Infrastructure",
+    "start_time": "2026-09-23T15:44:01+00:00",
+    "end_time": "2026-09-23T17:14:01+00:00",
+    "stream_url": "https://www.youtube.com/watch?v=XJXaTaUzd-M",
+    "description": "Official live broadcast stream on YouTube for Oracle.\nWatch live at https://www.youtube.com/watch?v=XJXaTaUzd-M",
+    "location": "YouTube Live - https://www.youtube.com/watch?v=XJXaTaUzd-M",
+    "source": "youtube_live"
+  },
+  {
     "uid": "meta-connect-2026",
     "title": "Meta Connect: Opening Keynote",
     "company": "Meta",
@@ -34,6 +58,18 @@
     "description": "Mark Zuckerberg keynote covering Llama frontier models, AI smart glasses, Quest VR hardware, and spatial computing updates.",
     "location": "Menlo Park, CA (Livestreamed)",
     "source": "curated_registry"
+  },
+  {
+    "uid": "yt-T1LAVgRCS-I",
+    "title": "Oracle: The AI Advantage in Government: Oracle Health and Life Sciences Summit 2026",
+    "company": "Oracle",
+    "category": "Data & Cloud Infrastructure",
+    "start_time": "2026-09-24T02:36:34+00:00",
+    "end_time": "2026-09-24T04:06:34+00:00",
+    "stream_url": "https://www.youtube.com/watch?v=T1LAVgRCS-I",
+    "description": "Official live broadcast stream on YouTube for Oracle.\nWatch live at https://www.youtube.com/watch?v=T1LAVgRCS-I",
+    "location": "YouTube Live - https://www.youtube.com/watch?v=T1LAVgRCS-I",
+    "source": "youtube_live"
   },
   {
     "uid": "airflow-summit-keynote-2026",

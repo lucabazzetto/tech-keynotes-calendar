@@ -24,6 +24,18 @@
     "source": "curated_registry"
   },
   {
+    "uid": "yt-_gF8syYr4yM",
+    "title": "AWS: Retell: Reinventing Call Center Communications with Voice-First AI | Amazon Web Services",
+    "company": "AWS",
+    "category": "Data & Cloud Infrastructure",
+    "start_time": "2026-09-23T15:15:13+00:00",
+    "end_time": "2026-09-23T17:15:13+00:00",
+    "stream_url": "https://www.youtube.com/watch?v=_gF8syYr4yM",
+    "description": "Official live broadcast stream on YouTube for AWS.\nWatch live at https://www.youtube.com/watch?v=_gF8syYr4yM",
+    "location": "YouTube Live - https://www.youtube.com/watch?v=_gF8syYr4yM",
+    "source": "youtube_live"
+  },
+  {
     "uid": "meta-connect-2026",
     "title": "Meta Connect: Opening Keynote",
     "company": "Meta",
@@ -36,6 +48,18 @@
     "source": "curated_registry"
   },
   {
+    "uid": "yt-GkQNCwKqRgU",
+    "title": "Oracle: The AI Advantage in Government: Oracle Health and Life Sciences Summit 2026",
+    "company": "Oracle",
+    "category": "Data & Cloud Infrastructure",
+    "start_time": "2026-09-24T22:58:32+00:00",
+    "end_time": "2026-09-25T00:28:32+00:00",
+    "stream_url": "https://www.youtube.com/watch?v=GkQNCwKqRgU",
+    "description": "Official live broadcast stream on YouTube for Oracle.\nWatch live at https://www.youtube.com/watch?v=GkQNCwKqRgU",
+    "location": "YouTube Live - https://www.youtube.com/watch?v=GkQNCwKqRgU",
+    "source": "youtube_live"
+  },
+  {
     "uid": "airflow-summit-keynote-2026",
     "title": "Airflow Summit: Opening Keynote (Airflow 3 & Modern Data Orchestration)",
     "company": "Apache Airflow",
@@ -46,18 +70,6 @@
     "description": "Keynote by Apache Airflow core PMC and Astronomer leadership covering the architecture of Airflow 3.0, dynamic task mapping, event-driven DAG execution, and migration from legacy ETL tools (ODI/SSIS/Informatica).",
     "location": "San Francisco, CA (Livestreamed)",
     "source": "curated_registry"
-  },
-  {
-    "uid": "tm-5d85d3a2aca8",
-    "title": "OpenAI DevDay",
-    "company": "OpenAI",
-    "category": "AI & LLMs",
-    "start_time": "2026-09-29T10:00:00-07:00",
-    "end_time": "2026-09-29T11:00:00-07:00",
-    "stream_url": "https://www.techmeme.com/r2/openai.com_index_devday-2026_-59SNGKtP.htm?cal=1",
-    "description": "OpenAI DevDay https://www.techmeme.com/r2/openai.com_index_devday-2026_-59SNGKtP.htm?cal=1\n\nFrom Techmeme's event calendar http://www.techmeme.com/events",
-    "location": "San Francisco",
-    "source": "techmeme_feed"
   },
   {
     "uid": "openai-devday-2026",

@@ -36,18 +36,6 @@
     "source": "curated_registry"
   },
   {
-    "uid": "yt-GkQNCwKqRgU",
-    "title": "Oracle: The AI Advantage in Government: Oracle Health and Life Sciences Summit 2026",
-    "company": "Oracle",
-    "category": "Data & Cloud Infrastructure",
-    "start_time": "2026-09-24T22:58:32+00:00",
-    "end_time": "2026-09-25T00:28:32+00:00",
-    "stream_url": "https://www.youtube.com/watch?v=GkQNCwKqRgU",
-    "description": "Official live broadcast stream on YouTube for Oracle.\nWatch live at https://www.youtube.com/watch?v=GkQNCwKqRgU",
-    "location": "YouTube Live - https://www.youtube.com/watch?v=GkQNCwKqRgU",
-    "source": "youtube_live"
-  },
-  {
     "uid": "airflow-summit-keynote-2026",
     "title": "Airflow Summit: Opening Keynote (Airflow 3 & Modern Data Orchestration)",
     "company": "Apache Airflow",
@@ -58,6 +46,18 @@
     "description": "Keynote by Apache Airflow core PMC and Astronomer leadership covering the architecture of Airflow 3.0, dynamic task mapping, event-driven DAG execution, and migration from legacy ETL tools (ODI/SSIS/Informatica).",
     "location": "San Francisco, CA (Livestreamed)",
     "source": "curated_registry"
+  },
+  {
+    "uid": "yt-xehrMTLVDo0",
+    "title": "Oracle: Oracle Health and Life Sciences Summit 2026: Event Highlights",
+    "company": "Oracle",
+    "category": "Data & Cloud Infrastructure",
+    "start_time": "2026-09-30T18:51:56+00:00",
+    "end_time": "2026-09-30T20:21:56+00:00",
+    "stream_url": "https://www.youtube.com/watch?v=xehrMTLVDo0",
+    "description": "Official live broadcast stream on YouTube for Oracle.\nWatch live at https://www.youtube.com/watch?v=xehrMTLVDo0",
+    "location": "YouTube Live - https://www.youtube.com/watch?v=xehrMTLVDo0",
+    "source": "youtube_live"
   },
   {
     "uid": "openai-devday-2026",

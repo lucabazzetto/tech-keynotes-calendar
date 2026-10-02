@@ -48,6 +48,18 @@
     "source": "curated_registry"
   },
   {
+    "uid": "yt-xehrMTLVDo0",
+    "title": "Oracle: Oracle Health and Life Sciences Summit 2026: Event Highlights",
+    "company": "Oracle",
+    "category": "Data & Cloud Infrastructure",
+    "start_time": "2026-09-30T18:51:56+00:00",
+    "end_time": "2026-09-30T20:21:56+00:00",
+    "stream_url": "https://www.youtube.com/watch?v=xehrMTLVDo0",
+    "description": "Official live broadcast stream on YouTube for Oracle.\nWatch live at https://www.youtube.com/watch?v=xehrMTLVDo0",
+    "location": "YouTube Live - https://www.youtube.com/watch?v=xehrMTLVDo0",
+    "source": "youtube_live"
+  },
+  {
     "uid": "openai-devday-2026",
     "title": "OpenAI DevDay: Opening Keynote",
     "company": "OpenAI",

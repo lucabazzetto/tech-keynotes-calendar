@@ -39,11 +39,14 @@ User Request ("Add X")
 [Step 4: Verify & Deploy] ──────► Run test suite ──► Run pipeline ──► Commit (Conventional Commits) ──► Git Push
 ```
 
-### Step 1: Historical Event Research
-1. Search previous editions of the company's events over the past 2–3 years:
-   - What month(s) do they usually broadcast? (e.g., Apple iPhone is always September; AWS re:Invent is late November; Figma Config is June).
-   - What time of day? (Default to `10:00` PT for West Coast tech; `09:00` ET for East Coast).
-   - What is their official YouTube handle? (e.g., `@anthropic-ai`, `@Figma`, `@OpenAI`).
+### Step 1: Research (confirmed facts only)
+> **Hard rule: the feed publishes ONLY officially confirmed events.** Never add an event based on
+> historical patterns, "usually in September", rumors, or aggregator sites. A curated event needs
+> an official page (organizer's site/blog/YouTube) stating its date **and** start time, recorded as
+> `source_url`. The loader rejects entries without it. If only conference dates are known, add it to
+> `watchlist` (not published) instead. Past history is useful only to know *where to watch*.
+1. Find the official YouTube handle (e.g. `@anthropic-ai`, `@Figma`, `@OpenAI`) so scheduled streams are picked up automatically.
+2. Check the organizer's official site for an announced keynote date and start time.
 
 ### Step 2: Auto-Registration via CLI Tool
 Do NOT edit YAML manually when possible; use the built-in management CLI:
@@ -57,14 +60,14 @@ Do NOT edit YAML manually when possible; use the built-in management CLI:
   --time "10:00" \
   --tz "America/Los_Angeles"
 
-# 2. If a specific upcoming flagship keynote date is announced or anticipated:
+# 2. ONLY if the keynote date AND start time are officially announced:
 .venv/bin/python -m src.manage add-event \
   --title "Anthropic: Frontier Showcase" \
   --company "Anthropic" \
   --category "AI & LLMs" \
   --start-time "2026-10-22T10:00:00-07:00" \
-  --end-time "2026-10-22T11:30:00-07:00" \
   --stream-url "https://www.youtube.com/@anthropic-ai/streams" \
+  --source-url "https://www.anthropic.com/events/<official-announcement>" \
   --description "Official live keynote revealing next-generation Claude models and developer APIs."
 ```
 
@@ -115,8 +118,8 @@ git push origin main
 │   ├── models.py             # KeynoteEvent dataclass & RFC 5545 iCalendar component builder
 │   ├── extractors/
 │   │   ├── curated.py        # Parses config/curated_events.yaml
-│   │   ├── techmeme.py       # Ingests & filters Techmeme ICS, mapping dates to canonical broadcast hours
-│   │   └── youtube.py        # Checks YouTube Atom/RSS feeds for scheduled live streams
+│   │   ├── techmeme.py       # Techmeme ICS → printed *leads* only (date-only, sometimes off by a day; never published)
+│   │   └── youtube.py        # Scheduled live streams, timed by YouTube's liveBroadcastDetails.startTimestamp
 │   ├── pipeline.py           # Ingestion, deduplication, stream enrichment, and chronological sorting
 │   ├── generator.py          # Generates public/tech_events.ics, public/events.json, and public/index.html
 │   └── main.py               # Main CLI entrypoint
@@ -151,3 +154,4 @@ git push origin main
 | 2026-09-06 | Antigravity (Gemini) | Decouple build from main | Removed automated bot commits to main; pipeline publishes exclusively to gh-pages to ensure 100% human-authored main branch. |
 
 | 2026-09-06 | Antigravity (Gemini) | Remove redundant CLAUDE.md | Consolidated all agent guidelines into single authoritative AI_CONTEXT.md file. |
+| 2026-10-04 | Claude Code (Opus 5.5) | Confirmed-only data policy | Removed guessed curated dates (e.g. OpenAI DevDay listed Oct 6, actual Sep 29), required `source_url`, dropped past events, YouTube now uses real scheduled start (was upload time), Techmeme demoted to unpublished leads, dedup by ±2h instead of same day. |

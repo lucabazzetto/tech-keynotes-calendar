@@ -92,11 +92,11 @@ def cmd_add_event(args):
     # Validate timestamps
     try:
         start_dt = parser.parse(args.start_time)
-        end_dt = parser.parse(args.end_time)
-        if start_dt.tzinfo is None or end_dt.tzinfo is None:
-            print("❌ Error: Both start_time and end_time must include an explicit timezone offset (e.g. -07:00 or Z).")
+        end_dt = parser.parse(args.end_time) if args.end_time else None
+        if start_dt.tzinfo is None or (end_dt and end_dt.tzinfo is None):
+            print("❌ Error: start_time and end_time must include an explicit timezone offset (e.g. -07:00 or Z).")
             sys.exit(1)
-        if end_dt <= start_dt:
+        if end_dt and end_dt <= start_dt:
             print("❌ Error: end_time must be after start_time.")
             sys.exit(1)
     except Exception as err:
@@ -117,8 +117,9 @@ def cmd_add_event(args):
         "company": args.company,
         "category": args.category,
         "start_time": args.start_time,
-        "end_time": args.end_time,
+        **({"end_time": args.end_time} if args.end_time else {}),
         "stream_url": args.stream_url,
+        "source_url": args.source_url,
         "description": args.description,
         "location": args.location
     }
@@ -149,8 +150,9 @@ def main():
     p_ev.add_argument("--company", required=True, help="Company name")
     p_ev.add_argument("--category", default="AI & LLMs")
     p_ev.add_argument("--start-time", required=True, help="ISO-8601 start with TZ offset (e.g. 2026-10-22T10:00:00-07:00)")
-    p_ev.add_argument("--end-time", required=True, help="ISO-8601 end with TZ offset (e.g. 2026-10-22T11:30:00-07:00)")
+    p_ev.add_argument("--end-time", help="ISO-8601 end with TZ offset; omit if the organizer hasn't published one")
     p_ev.add_argument("--stream-url", required=True, help="Livestream / official landing URL")
+    p_ev.add_argument("--source-url", required=True, help="Official page confirming the date AND start time")
     p_ev.add_argument("--description", default="Official live broadcast keynote presentation.")
     p_ev.add_argument("--location", default="Livestream")
     p_ev.set_defaults(func=cmd_add_event)

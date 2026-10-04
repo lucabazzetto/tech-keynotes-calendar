@@ -40,15 +40,15 @@ Once your repository is published to GitHub and GitHub Pages is enabled:
                ┌──────────────────────────────────────────────┐
                │                Data Sources                  │
                │  • YouTube Scheduled Live Streams (Atom/RSS) │
-               │  • Techmeme Newsy Feed (Filtered)            │
-               │  • Curated Keynote Registry (YAML)           │
+               │  • Curated Registry (official source_url)    │
+               │  • Techmeme (leads only, never published)    │
                └──────────────────────┬───────────────────────┘
                                       │
                                       ▼
                ┌──────────────────────────────────────────────┐
                │          ETL & Deduplication Engine          │
-               │  • Filter out earnings / financial calls     │
-               │  • Convert all-day dates to keynote hours    │
+               │  • Confirmed events only, past ones dropped  │
+               │  • Real YouTube scheduled start times        │
                │  • Merge YouTube livestream URLs             │
                └──────────────────────┬───────────────────────┘
                                       │
@@ -107,4 +107,4 @@ open public/index.html
 ## ⚙️ Configuration
 
 * **`config/sources.yaml`**: Add/remove YouTube channel IDs, configure positive/negative keyword filters for Techmeme.
-* **`config/curated_events.yaml`**: Add known dates and times for upcoming flagship summits.
+* **`config/curated_events.yaml`**: Officially confirmed keynotes only. Every entry needs a `source_url` stating the date and start time; conferences without an announced keynote time go in `watchlist` (not published).

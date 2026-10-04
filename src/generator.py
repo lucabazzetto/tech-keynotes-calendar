@@ -159,7 +159,7 @@ def generate_html(events: List[KeynoteEvent], output_path: str = "public/index.h
   <div class="container">
     <header>
       <h1>📡 Tech & Data Engineering Keynotes</h1>
-      <p class="subtitle">Curated live event broadcasts from Apple, Google, Samsung, AWS, Databricks, Snowflake, NVIDIA, and OpenAI. Exact keynote hours, livestream links, zero all-day spam.</p>
+      <p class="subtitle">Curated live event broadcasts from Apple, Google, Samsung, AWS, Databricks, Snowflake, NVIDIA, and OpenAI. Only officially confirmed keynotes, with exact hours and livestream links.</p>
     </header>
 
     <div class="cta-banner">

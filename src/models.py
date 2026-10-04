@@ -16,6 +16,7 @@ class KeynoteEvent:
     description: str
     location: str = "Livestream"
     source: str = "curated"
+    source_url: str = ""
 
     def to_dict(self):
         return {
@@ -29,6 +30,7 @@ class KeynoteEvent:
             "description": self.description,
             "location": self.location,
             "source": self.source,
+            "source_url": self.source_url,
         }
 
     def to_ical_event(self) -> Event:
@@ -58,6 +60,8 @@ class KeynoteEvent:
             f"🏷️ Category: {self.category}\n"
             f"📡 Pipeline Source: {self.source}"
         )
+        if self.source_url:
+            full_desc += f"\n✅ Confirmed by: {self.source_url}"
         event.add("description", full_desc)
         event.add("categories", [self.category, self.company, "Tech Keynote"])
         event.add("status", "CONFIRMED")

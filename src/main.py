@@ -11,8 +11,8 @@ def main():
     events = run_pipeline()
     
     if not events:
-        print("⚠️ Warning: No events retrieved from pipeline.")
-        sys.exit(0)
+        # Still publish: an empty feed is correct, stale events are not.
+        print("⚠️ Warning: No confirmed upcoming events found.")
 
     # Output directory
     dist_dir = "public"

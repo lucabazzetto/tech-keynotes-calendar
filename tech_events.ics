@@ -9,600 +9,92 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
-SUMMARY:[Apple] Apple Event: Special Keynote Showcase
-DTSTART:20260909T170000Z
-DTEND:20260909T190000Z
-DTSTAMP:20261004T112656Z
-UID:apple-fall-keynote-2026
-CATEGORIES:Hardware & Consumer Tech,Apple,Tech Keynote
-DESCRIPTION:Official Apple Special Event. Expected announcements: New flag
- ship iPhone lineup\, Apple Watch\, AirPods\, and Apple Intelligence rollou
- t updates.\n\n🔴 Watch Live Stream: https://www.apple.com/apple-events/
- \n🏢 Company: Apple\n🏷️ Category: Hardware & Consumer Tech\n📡 Pi
- peline Source: curated_registry
-LOCATION:Steve Jobs Theater\, Cupertino\, CA (Livestreamed) - https://www.
- apple.com/apple-events/
+SUMMARY:[NVIDIA] NVIDIA GTC Berlin: Jensen Huang Keynote
+DTSTART:20261021T090000Z
+DTEND:20261021T110000Z
+DTSTAMP:20261004T130226Z
+UID:nvidia-gtc-berlin-2026-keynote
+CATEGORIES:AI & Hardware,NVIDIA,Tech Keynote
+DESCRIPTION:NVIDIA CEO Jensen Huang live keynote at the Tempodrom.\n\n🔴
+  Watch Live Stream: https://www.nvidia.com/en-eu/gtc/keynote/\n🏢 Compan
+ y: NVIDIA\n🏷️ Category: AI & Hardware\n📡 Pipeline Source: curated_
+ registry\n✅ Confirmed by: https://www.nvidia.com/en-eu/gtc/keynote/
+LOCATION:Tempodrom\, Berlin (Livestreamed) - https://www.nvidia.com/en-eu/
+ gtc/keynote/
 STATUS:CONFIRMED
-URL:https://www.apple.com/apple-events/
+URL:https://www.nvidia.com/en-eu/gtc/keynote/
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Keynote Starting Soon: [Apple] Apple Event: Special Keynote Sh
- owcase
+DESCRIPTION:Keynote Starting Soon: [NVIDIA] NVIDIA GTC Berlin: Jensen Huan
+ g Keynote
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[Oracle] Oracle CloudWorld: Global Keynote (OCI\, GoldenGate & Dat
- a Integration)
-DTSTART:20260915T160000Z
-DTEND:20260915T183000Z
-DTSTAMP:20261004T112656Z
-UID:oracle-cloudworld-keynote-2026
-CATEGORIES:Data & Cloud Infrastructure,Oracle,Tech Keynote
-DESCRIPTION:Larry Ellison & Safra Catz present OCI generative AI infrastru
- cture\, Oracle GoldenGate streaming data replication\, Autonomous Database
-  updates\, and multicloud data architectures.\n\n🔴 Watch Live Stream: h
- ttps://www.oracle.com/cloudworld/\n🏢 Company: Oracle\n🏷️ Category:
-  Data & Cloud Infrastructure\n📡 Pipeline Source: curated_registry
-LOCATION:The Venetian\, Las Vegas\, NV (Livestreamed) - https://www.oracle
- .com/cloudworld/
-STATUS:CONFIRMED
-URL:https://www.oracle.com/cloudworld/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Keynote Starting Soon: [Oracle] Oracle CloudWorld: Global Keyn
- ote (OCI\, GoldenGate & Data Integration)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Meta] Meta Connect: Opening Keynote
-DTSTART:20260923T170000Z
-DTEND:20260923T190000Z
-DTSTAMP:20261004T112656Z
-UID:meta-connect-2026
-CATEGORIES:AI & Hardware,Meta,Tech Keynote
-DESCRIPTION:Mark Zuckerberg keynote covering Llama frontier models\, AI sm
- art glasses\, Quest VR hardware\, and spatial computing updates.\n\n🔴 W
- atch Live Stream: https://www.metaconnect.com/\n🏢 Company: Meta\n🏷
- ️ Category: AI & Hardware\n📡 Pipeline Source: curated_registry
-LOCATION:Menlo Park\, CA (Livestreamed) - https://www.metaconnect.com/
-STATUS:CONFIRMED
-URL:https://www.metaconnect.com/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Keynote Starting Soon: [Meta] Meta Connect: Opening Keynote
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Apache Airflow] Airflow Summit: Opening Keynote (Airflow 3 & Mode
- rn Data Orchestration)
-DTSTART:20260929T160000Z
-DTEND:20260929T173000Z
-DTSTAMP:20261004T112656Z
-UID:airflow-summit-keynote-2026
-CATEGORIES:Data & Cloud Infrastructure,Apache Airflow,Tech Keynote
-DESCRIPTION:Keynote by Apache Airflow core PMC and Astronomer leadership c
- overing the architecture of Airflow 3.0\, dynamic task mapping\, event-dri
- ven DAG execution\, and migration from legacy ETL tools (ODI/SSIS/Informat
- ica).\n\n🔴 Watch Live Stream: https://airflowsummit.org/\n🏢 Company:
-  Apache Airflow\n🏷️ Category: Data & Cloud Infrastructure\n📡 Pipel
- ine Source: curated_registry
-LOCATION:San Francisco\, CA (Livestreamed) - https://airflowsummit.org/
-STATUS:CONFIRMED
-URL:https://airflowsummit.org/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Keynote Starting Soon: [Apache Airflow] Airflow Summit: Openin
- g Keynote (Airflow 3 & Modern Data Orchestration)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Oracle] Oracle: Oracle Health and Life Sciences Summit 2026: Even
- t Highlights
-DTSTART:20260930T185156Z
-DTEND:20260930T202156Z
-DTSTAMP:20261004T112656Z
-UID:yt-xehrMTLVDo0
-CATEGORIES:Data & Cloud Infrastructure,Oracle,Tech Keynote
-DESCRIPTION:Official live broadcast stream on YouTube for Oracle.\nWatch l
- ive at https://www.youtube.com/watch?v=xehrMTLVDo0\n\n🔴 Watch Live Stre
- am: https://www.youtube.com/watch?v=xehrMTLVDo0\n🏢 Company: Oracle\n
- 🏷️ Category: Data & Cloud Infrastructure\n📡 Pipeline Source: youtu
- be_live
-LOCATION:YouTube Live - https://www.youtube.com/watch?v=xehrMTLVDo0 - http
- s://www.youtube.com/watch?v=xehrMTLVDo0
-STATUS:CONFIRMED
-URL:https://www.youtube.com/watch?v=xehrMTLVDo0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Keynote Starting Soon: [Oracle] Oracle: Oracle Health and Life
-  Sciences Summit 2026: Event Highlights
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[GitHub] GitHub: GitHub Universe Day 2 Keynote
-DTSTART:20261002T144529Z
-DTEND:20261002T161529Z
-DTSTAMP:20261004T112656Z
-UID:yt-ZSMFrM54H2Q
+SUMMARY:[GitHub] GitHub Universe: Day 1 Keynote
+DTSTART:20261028T160000Z
+DTEND:20261028T170000Z
+DTSTAMP:20261004T130226Z
+UID:github-universe-2026-day1-keynote
 CATEGORIES:Software & Dev Tools,GitHub,Tech Keynote
-DESCRIPTION:Official live broadcast stream on YouTube for GitHub.\nWatch l
- ive at https://www.youtube.com/watch?v=ZSMFrM54H2Q\n\n🔴 Watch Live Stre
- am: https://www.youtube.com/watch?v=ZSMFrM54H2Q\n🏢 Company: GitHub\n
- 🏷️ Category: Software & Dev Tools\n📡 Pipeline Source: youtube_live
-LOCATION:YouTube Live - https://www.youtube.com/watch?v=ZSMFrM54H2Q - http
- s://www.youtube.com/watch?v=ZSMFrM54H2Q
+DESCRIPTION:GitHub Universe 2026 opening keynote.\n(Official start time\; 
+ end time not published by the organizer.)\n\n🔴 Watch Live Stream: https
+ ://www.youtube.com/watch?v=MZfqId_rrB0\n🏢 Company: GitHub\n🏷️ Cate
+ gory: Software & Dev Tools\n📡 Pipeline Source: curated_registry\n✅ Co
+ nfirmed by: https://githubuniverse.com/
+LOCATION:Fort Mason Center\, San Francisco\, CA (Livestreamed) - https://w
+ ww.youtube.com/watch?v=MZfqId_rrB0
+STATUS:CONFIRMED
+URL:https://www.youtube.com/watch?v=MZfqId_rrB0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Keynote Starting Soon: [GitHub] GitHub Universe: Day 1 Keynote
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[GitHub] GitHub Universe: Closing Keynote
+DTSTART:20261029T210000Z
+DTEND:20261029T220000Z
+DTSTAMP:20261004T130226Z
+UID:github-universe-2026-day2-keynote
+CATEGORIES:Software & Dev Tools,GitHub,Tech Keynote
+DESCRIPTION:GitHub Universe 2026 day 2 closing keynote.\n(Official start t
+ ime\; end time not published by the organizer.)\n\n🔴 Watch Live Stream:
+  https://www.youtube.com/watch?v=ZSMFrM54H2Q\n🏢 Company: GitHub\n🏷
+ ️ Category: Software & Dev Tools\n📡 Pipeline Source: curated_registry
+ \n✅ Confirmed by: https://githubuniverse.com/
+LOCATION:Fort Mason Center\, San Francisco\, CA (Livestreamed) - https://w
+ ww.youtube.com/watch?v=ZSMFrM54H2Q
 STATUS:CONFIRMED
 URL:https://www.youtube.com/watch?v=ZSMFrM54H2Q
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Keynote Starting Soon: [GitHub] GitHub: GitHub Universe Day 2 
- Keynote
+DESCRIPTION:Keynote Starting Soon: [GitHub] GitHub Universe: Closing Keyno
+ te
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[OpenAI] OpenAI DevDay: Opening Keynote
-DTSTART:20261006T170000Z
-DTEND:20261006T183000Z
-DTSTAMP:20261004T112656Z
-UID:openai-devday-2026
-CATEGORIES:AI & LLMs,OpenAI,Tech Keynote
-DESCRIPTION:OpenAI Developer Day keynote. Next-generation reasoning models
- \, API capabilities\, agentic tooling\, and voice platform updates.\n\n
- 🔴 Watch Live Stream: https://www.youtube.com/@OpenAI/streams\n🏢 Comp
- any: OpenAI\n🏷️ Category: AI & LLMs\n📡 Pipeline Source: curated_re
- gistry
-LOCATION:San Francisco\, CA (Livestreamed) - https://www.youtube.com/@Open
- AI/streams
-STATUS:CONFIRMED
-URL:https://www.youtube.com/@OpenAI/streams
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Keynote Starting Soon: [OpenAI] OpenAI DevDay: Opening Keynote
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[OpenAI] Alignment 2026 Valley101 AI Summit: Hear from Cerebras\, 
- NVIDIA\, OpenAI & Anthropic
-DTSTART:20261010T170000Z
-DTEND:20261010T180000Z
-DTSTAMP:20261004T112656Z
-UID:tm-660a78b2b411
-CATEGORIES:AI & LLMs,OpenAI,Tech Keynote
-DESCRIPTION:Alignment 2026 Valley101 AI Summit: Hear from Cerebras\, NVIDI
- A\, OpenAI & Anthropic https://www.techmeme.com/r2/luma.com_alignment2026_
- utm_source_techmeme-84vS3Ix1.htm?cal=1\n\nFrom Techmeme's event calendar h
- ttp://www.techmeme.com/events\n\n🔴 Watch Live Stream: https://www.techm
- eme.com/r2/luma.com_alignment2026_utm_source_techmeme-84vS3Ix1.htm?cal=1\n
- 🏢 Company: OpenAI\n🏷️ Category: AI & LLMs\n📡 Pipeline Source: t
- echmeme_feed
-LOCATION:Sunnyvale\, CA - https://www.techmeme.com/r2/luma.com_alignment20
- 26_utm_source_techmeme-84vS3Ix1.htm?cal=1
-STATUS:CONFIRMED
-URL:https://www.techmeme.com/r2/luma.com_alignment2026_utm_source_techmeme
- -84vS3Ix1.htm?cal=1
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Keynote Starting Soon: [OpenAI] Alignment 2026 Valley101 AI Su
- mmit: Hear from Cerebras\, NVIDIA\, OpenAI & Anthropic
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NVIDIA] Nvidia GTC Berlin
-DTSTART:20261020T180000Z
-DTEND:20261020T200000Z
-DTSTAMP:20261004T112656Z
-UID:tm-1be49d0f2dae
-CATEGORIES:AI & LLMs,NVIDIA,Tech Keynote
-DESCRIPTION:Nvidia GTC Berlin https://www.techmeme.com/r2/www.nvidia.com_e
- n-eu_gtc__regcode_no-ncid_amp_ncid_no-ncid-VfnFplvW.htm?cal=1\n\nFrom Tech
- meme's event calendar http://www.techmeme.com/events\n\n🔴 Watch Live St
- ream: https://www.techmeme.com/r2/www.nvidia.com_en-eu_gtc__regcode_no-nci
- d_amp_ncid_no-ncid-VfnFplvW.htm?cal=1\n🏢 Company: NVIDIA\n🏷️ Categ
- ory: AI & LLMs\n📡 Pipeline Source: techmeme_feed
-LOCATION:Berlin - https://www.techmeme.com/r2/www.nvidia.com_en-eu_gtc__re
- gcode_no-ncid_amp_ncid_no-ncid-VfnFplvW.htm?cal=1
-STATUS:CONFIRMED
-URL:https://www.techmeme.com/r2/www.nvidia.com_en-eu_gtc__regcode_no-ncid_
- amp_ncid_no-ncid-VfnFplvW.htm?cal=1
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Keynote Starting Soon: [NVIDIA] Nvidia GTC Berlin
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Anthropic] Anthropic: Claude Frontier Showcase & Keynote
-DTSTART:20261022T170000Z
-DTEND:20261022T183000Z
-DTSTAMP:20261004T112656Z
-UID:anthropic-claude-frontier-2026
-CATEGORIES:AI & LLMs,Anthropic,Tech Keynote
-DESCRIPTION:Dario Amodei and the Anthropic research team present frontier 
- Claude reasoning architectures\, computer-use agentic capabilities\, and d
- eveloper platform expansions.\n\n🔴 Watch Live Stream: https://www.youtu
- be.com/@anthropic-ai/streams\n🏢 Company: Anthropic\n🏷️ Category: A
- I & LLMs\n📡 Pipeline Source: curated_registry
-LOCATION:San Francisco\, CA (Livestreamed) - https://www.youtube.com/@anth
- ropic-ai/streams
-STATUS:CONFIRMED
-URL:https://www.youtube.com/@anthropic-ai/streams
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Keynote Starting Soon: [Anthropic] Anthropic: Claude Frontier 
- Showcase & Keynote
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Oracle] Oracle AIWorld
-DTSTART:20261025T160000Z
-DTEND:20261025T180000Z
-DTSTAMP:20261004T112656Z
-UID:tm-e5b537a53ee1
-CATEGORIES:Hardware & Consumer Tech,Oracle,Tech Keynote
-DESCRIPTION:Oracle AIWorld https://www.techmeme.com/r2/www.oracle.com_ai-w
- orld_-plRA26ws.htm?cal=1\n\nFrom Techmeme's event calendar http://www.tech
- meme.com/events\n\n🔴 Watch Live Stream: https://www.techmeme.com/r2/www
- .oracle.com_ai-world_-plRA26ws.htm?cal=1\n🏢 Company: Oracle\n🏷️ Ca
- tegory: Hardware & Consumer Tech\n📡 Pipeline Source: techmeme_feed
-LOCATION:Las Vegas - https://www.techmeme.com/r2/www.oracle.com_ai-world_-
- plRA26ws.htm?cal=1
-STATUS:CONFIRMED
-URL:https://www.techmeme.com/r2/www.oracle.com_ai-world_-plRA26ws.htm?cal=
- 1
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Keynote Starting Soon: [Oracle] Oracle AIWorld
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[GitHub] GitHub Universe: Opening Keynote (GitHub Copilot & Worksp
- ace AI)
-DTSTART:20261028T160000Z
-DTEND:20261028T180000Z
-DTSTAMP:20261004T112656Z
-UID:github-universe-copilot-2026
-CATEGORIES:Software & Dev Tools,GitHub,Tech Keynote
-DESCRIPTION:Thomas Dohmke and GitHub leadership present major innovations 
- in GitHub Copilot Workspace\, agentic coding models\, security automation
- \, and developer platform tooling.\n\n🔴 Watch Live Stream: https://gith
- ubuniverse.com/\n🏢 Company: GitHub\n🏷️ Category: Software & Dev To
- ols\n📡 Pipeline Source: curated_registry
-LOCATION:Fort Mason Center\, San Francisco\, CA (Livestreamed) - https://g
- ithubuniverse.com/
-STATUS:CONFIRMED
-URL:https://githubuniverse.com/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Keynote Starting Soon: [GitHub] GitHub Universe: Opening Keyno
- te (GitHub Copilot & Workspace AI)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Microsoft] Microsoft Ignite
-DTSTART:20261116T170000Z
-DTEND:20261116T190000Z
-DTSTAMP:20261004T112656Z
-UID:tm-d433226a5e3c
-CATEGORIES:Hardware & Consumer Tech,Microsoft,Tech Keynote
-DESCRIPTION:Microsoft Ignite https://www.techmeme.com/r2/ignite.microsoft.
- com_en-US_home-sltGiIKe.htm?cal=1\n\nFrom Techmeme's event calendar http:/
- /www.techmeme.com/events\n\n🔴 Watch Live Stream: https://www.techmeme.c
- om/r2/ignite.microsoft.com_en-US_home-sltGiIKe.htm?cal=1\n🏢 Company: Mi
- crosoft\n🏷️ Category: Hardware & Consumer Tech\n📡 Pipeline Source:
-  techmeme_feed
-LOCATION:San Francisco - https://www.techmeme.com/r2/ignite.microsoft.com_
- en-US_home-sltGiIKe.htm?cal=1
-STATUS:CONFIRMED
-URL:https://www.techmeme.com/r2/ignite.microsoft.com_en-US_home-sltGiIKe.h
- tm?cal=1
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Keynote Starting Soon: [Microsoft] Microsoft Ignite
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Microsoft] Microsoft Ignite: Opening Keynote (M365 Copilot & Fabr
- ic Data Platform)
-DTSTART:20261117T170000Z
-DTEND:20261117T190000Z
-DTSTAMP:20261004T112656Z
-UID:microsoft-ignite-copilot-2026
+SUMMARY:[Microsoft] Microsoft Ignite: Opening Keynote
+DTSTART:20261117T180000Z
+DTEND:20261117T200000Z
+DTSTAMP:20261004T130226Z
+UID:microsoft-ignite-2026-opening-keynote
 CATEGORIES:AI & Software,Microsoft,Tech Keynote
-DESCRIPTION:Satya Nadella presents enterprise M365 Copilot capabilities\, 
- Copilot Studio autonomous agents\, and Microsoft Fabric real-time data pip
- elines.\n\n🔴 Watch Live Stream: https://ignite.microsoft.com/\n🏢 Com
- pany: Microsoft\n🏷️ Category: AI & Software\n📡 Pipeline Source: cu
- rated_registry
-LOCATION:McCormick Place\, Chicago\, IL (Livestreamed) - https://ignite.mi
- crosoft.com/
+DESCRIPTION:Opening keynote with Satya Nadella and Judson Althoff.\n\n🔴
+  Watch Live Stream: https://ignite.microsoft.com/\n🏢 Company: Microsoft
+ \n🏷️ Category: AI & Software\n📡 Pipeline Source: curated_registry
+ \n✅ Confirmed by: https://www.microsoft.com/en-us/security/blog/2026/09/
+ 30/secure-whats-next-your-guide-to-microsoft-security-at-microsoft-ignite-
+ 2026/
+LOCATION:Chase Center\, San Francisco\, CA (Livestreamed) - https://ignite
+ .microsoft.com/
 STATUS:CONFIRMED
 URL:https://ignite.microsoft.com/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Keynote Starting Soon: [Microsoft] Microsoft Ignite: Opening K
- eynote (M365 Copilot & Fabric Data Platform)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[AWS] AWS re:Invent
-DTSTART:20261129T163000Z
-DTEND:20261129T183000Z
-DTSTAMP:20261004T112656Z
-UID:tm-8813883d213a
-CATEGORIES:Data & Cloud Infrastructure,AWS,Tech Keynote
-DESCRIPTION:AWS re:Invent https://www.techmeme.com/r2/aws.amazon.com_event
- s_reinvent_-FcYdezk8.htm?cal=1\n\nFrom Techmeme's event calendar http://ww
- w.techmeme.com/events\n\n🔴 Watch Live Stream: https://www.techmeme.com/
- r2/aws.amazon.com_events_reinvent_-FcYdezk8.htm?cal=1\n🏢 Company: AWS\n
- 🏷️ Category: Data & Cloud Infrastructure\n📡 Pipeline Source: techm
- eme_feed
-LOCATION:Las Vegas - https://www.techmeme.com/r2/aws.amazon.com_events_rei
- nvent_-FcYdezk8.htm?cal=1
-STATUS:CONFIRMED
-URL:https://www.techmeme.com/r2/aws.amazon.com_events_reinvent_-FcYdezk8.h
- tm?cal=1
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Keynote Starting Soon: [AWS] AWS re:Invent
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[AWS] AWS re:Invent: CEO Keynote
-DTSTART:20261201T163000Z
-DTEND:20261201T190000Z
-DTSTAMP:20261004T112656Z
-UID:aws-reinvent-ceo-keynote-2026
-CATEGORIES:Data & Cloud Infrastructure,AWS,Tech Keynote
-DESCRIPTION:AWS re:Invent Global Keynote. Major infrastructure\, EC2\, Bed
- rock generative AI\, serverless\, and cloud database announcements.\n\n
- 🔴 Watch Live Stream: https://reinvent.awsevents.com/\n🏢 Company: AWS
- \n🏷️ Category: Data & Cloud Infrastructure\n📡 Pipeline Source: cur
- ated_registry
-LOCATION:Venetian\, Las Vegas\, NV (Livestreamed) - https://reinvent.awsev
- ents.com/
-STATUS:CONFIRMED
-URL:https://reinvent.awsevents.com/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Keynote Starting Soon: [AWS] AWS re:Invent: CEO Keynote
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[AWS] AWS re:Invent: Data & AI Keynote (Dr. Swami Sivasubramanian)
-DTSTART:20261202T163000Z
-DTEND:20261202T183000Z
-DTSTAMP:20261004T112656Z
-UID:aws-reinvent-data-ai-keynote-2026
-CATEGORIES:Data & Cloud Infrastructure,AWS,Tech Keynote
-DESCRIPTION:Dedicated Data & AI Keynote. Updates on Amazon Redshift\, Open
- Search\, Glue ETL\, DynamoDB\, Bedrock data connections\, and analytics en
- gines.\n\n🔴 Watch Live Stream: https://reinvent.awsevents.com/\n🏢 Co
- mpany: AWS\n🏷️ Category: Data & Cloud Infrastructure\n📡 Pipeline S
- ource: curated_registry
-LOCATION:Venetian\, Las Vegas\, NV (Livestreamed) - https://reinvent.awsev
- ents.com/
-STATUS:CONFIRMED
-URL:https://reinvent.awsevents.com/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Keynote Starting Soon: [AWS] AWS re:Invent: Data & AI Keynote 
- (Dr. Swami Sivasubramanian)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[AWS] AWS re:Invent: Dr. Werner Vogels CTO Keynote
-DTSTART:20261203T163000Z
-DTEND:20261203T183000Z
-DTSTAMP:20261004T112656Z
-UID:aws-reinvent-werner-vogels-2026
-CATEGORIES:Data & Cloud Infrastructure,AWS,Tech Keynote
-DESCRIPTION:Dr. Werner Vogels keynote focusing on distributed systems arch
- itecture\, event-driven design\, resiliency\, and sustainable data enginee
- ring.\n\n🔴 Watch Live Stream: https://reinvent.awsevents.com/\n🏢 Com
- pany: AWS\n🏷️ Category: Data & Cloud Infrastructure\n📡 Pipeline So
- urce: curated_registry
-LOCATION:Venetian\, Las Vegas\, NV (Livestreamed) - https://reinvent.awsev
- ents.com/
-STATUS:CONFIRMED
-URL:https://reinvent.awsevents.com/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Keynote Starting Soon: [AWS] AWS re:Invent: Dr. Werner Vogels 
- CTO Keynote
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Samsung] Samsung Galaxy Unpacked
-DTSTART:20270120T180000Z
-DTEND:20270120T193000Z
-DTSTAMP:20261004T112656Z
-UID:samsung-unpacked-2027
-CATEGORIES:Hardware & Consumer Tech,Samsung,Tech Keynote
-DESCRIPTION:Flagship Samsung Galaxy S-series reveal\, Galaxy AI on-device 
- capabilities\, and wearable hardware updates.\n\n🔴 Watch Live Stream: h
- ttps://www.youtube.com/@Samsung/streams\n🏢 Company: Samsung\n🏷️ Ca
- tegory: Hardware & Consumer Tech\n📡 Pipeline Source: curated_registry
-LOCATION:San Jose\, CA (Livestreamed) - https://www.youtube.com/@Samsung/s
- treams
-STATUS:CONFIRMED
-URL:https://www.youtube.com/@Samsung/streams
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Keynote Starting Soon: [Samsung] Samsung Galaxy Unpacked
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[NVIDIA] NVIDIA GTC: Jensen Huang Global Keynote
-DTSTART:20270316T180000Z
-DTEND:20270316T200000Z
-DTSTAMP:20261004T112656Z
-UID:nvidia-gtc-2027
-CATEGORIES:AI & Hardware,NVIDIA,Tech Keynote
-DESCRIPTION:Jensen Huang presents groundbreaking GPU architectures\, CUDA-
- X data science libraries\, Blackwell/Rubin accelerators\, and enterprise A
- I.\n\n🔴 Watch Live Stream: https://www.nvidia.com/gtc/\n🏢 Company: N
- VIDIA\n🏷️ Category: AI & Hardware\n📡 Pipeline Source: curated_regi
- stry
-LOCATION:SAP Center\, San Jose\, CA (Livestreamed) - https://www.nvidia.co
- m/gtc/
-STATUS:CONFIRMED
-URL:https://www.nvidia.com/gtc/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Keynote Starting Soon: [NVIDIA] NVIDIA GTC: Jensen Huang Globa
- l Keynote
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Anthropic] Anthropic: Claude Spring Developer Keynote
-DTSTART:20270325T170000Z
-DTEND:20270325T183000Z
-DTSTAMP:20261004T112656Z
-UID:anthropic-claude-developer-2027
-CATEGORIES:AI & LLMs,Anthropic,Tech Keynote
-DESCRIPTION:Anthropic developer event covering Claude Code integration\, a
- gentic frameworks\, context caching improvements\, and multimodal develope
- r APIs.\n\n🔴 Watch Live Stream: https://www.youtube.com/@anthropic-ai/s
- treams\n🏢 Company: Anthropic\n🏷️ Category: AI & LLMs\n📡 Pipelin
- e Source: curated_registry
-LOCATION:San Francisco\, CA (Livestreamed) - https://www.youtube.com/@anth
- ropic-ai/streams
-STATUS:CONFIRMED
-URL:https://www.youtube.com/@anthropic-ai/streams
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Keynote Starting Soon: [Anthropic] Anthropic: Claude Spring De
- veloper Keynote
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Google Cloud] Google Cloud Next: Opening Keynote
-DTSTART:20270414T160000Z
-DTEND:20270414T180000Z
-DTSTAMP:20261004T112656Z
-UID:google-cloud-next-2027
-CATEGORIES:Data & Cloud Infrastructure,Google Cloud,Tech Keynote
-DESCRIPTION:Sundar Pichai & Thomas Kurian keynote on BigQuery innovations
- \, Vertex AI\, Dataproc Serverless\, and enterprise data mesh platforms.\n
- \n🔴 Watch Live Stream: https://cloud.withgoogle.com/next\n🏢 Company:
-  Google Cloud\n🏷️ Category: Data & Cloud Infrastructure\n📡 Pipelin
- e Source: curated_registry
-LOCATION:Mandalay Bay\, Las Vegas\, NV (Livestreamed) - https://cloud.with
- google.com/next
-STATUS:CONFIRMED
-URL:https://cloud.withgoogle.com/next
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Keynote Starting Soon: [Google Cloud] Google Cloud Next: Openi
- ng Keynote
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Google] Google I/O: Global Keynote
-DTSTART:20270512T170000Z
-DTEND:20270512T190000Z
-DTSTAMP:20261004T112656Z
-UID:google-io-2027
-CATEGORIES:AI & Software,Google,Tech Keynote
-DESCRIPTION:Google I/O keynote. Android major release\, Gemini model upgra
- des\, Google Search & Assistant generative capabilities\, and Pixel hardwa
- re previews.\n\n🔴 Watch Live Stream: https://io.google/\n🏢 Company: 
- Google\n🏷️ Category: AI & Software\n📡 Pipeline Source: curated_reg
- istry
-LOCATION:Shoreline Amphitheatre\, Mountain View\, CA (Livestreamed) - http
- s://io.google/
-STATUS:CONFIRMED
-URL:https://io.google/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Keynote Starting Soon: [Google] Google I/O: Global Keynote
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Apple] Apple WWDC: Keynote Showcase
-DTSTART:20270608T170000Z
-DTEND:20270608T190000Z
-DTSTAMP:20261004T112656Z
-UID:apple-wwdc-2027
-CATEGORIES:Software & AI,Apple,Tech Keynote
-DESCRIPTION:Apple Worldwide Developers Conference keynote. Reveals for iOS
- \, macOS\, iPadOS\, watchOS\, and Apple Intelligence developer APIs.\n\n
- 🔴 Watch Live Stream: https://developer.apple.com/wwdc/\n🏢 Company: A
- pple\n🏷️ Category: Software & AI\n📡 Pipeline Source: curated_regis
- try
-LOCATION:Apple Park\, Cupertino\, CA (Livestreamed) - https://developer.ap
- ple.com/wwdc/
-STATUS:CONFIRMED
-URL:https://developer.apple.com/wwdc/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Keynote Starting Soon: [Apple] Apple WWDC: Keynote Showcase
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Databricks] Databricks Data + AI Summit: Opening Keynote
-DTSTART:20270616T160000Z
-DTEND:20270616T183000Z
-DTSTAMP:20261004T112656Z
-UID:databricks-summit-2027
-CATEGORIES:Data & Cloud Infrastructure,Databricks,Tech Keynote
-DESCRIPTION:Matei Zaharia & Ali Ghodsi present Apache Spark\, Delta Lake\,
-  Unity Catalog\, Mosaic AI\, and serverless data lakehouse innovations.\n
- \n🔴 Watch Live Stream: https://www.databricks.com/dataaisummit\n🏢 Co
- mpany: Databricks\n🏷️ Category: Data & Cloud Infrastructure\n📡 Pip
- eline Source: curated_registry
-LOCATION:Moscone Center\, San Francisco\, CA (Livestreamed) - https://www.
- databricks.com/dataaisummit
-STATUS:CONFIRMED
-URL:https://www.databricks.com/dataaisummit
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Keynote Starting Soon: [Databricks] Databricks Data + AI Summi
- t: Opening Keynote
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Snowflake] Snowflake Summit: Opening Keynote
-DTSTART:20270623T160000Z
-DTEND:20270623T180000Z
-DTSTAMP:20261004T112656Z
-UID:snowflake-summit-2027
-CATEGORIES:Data & Cloud Infrastructure,Snowflake,Tech Keynote
-DESCRIPTION:Snowflake Summit Keynote. Cortex AI\, Iceberg tables\, Snowpar
- k\, streaming data pipelines\, and Native Apps.\n\n🔴 Watch Live Stream:
-  https://www.snowflake.com/summit/\n🏢 Company: Snowflake\n🏷️ Categ
- ory: Data & Cloud Infrastructure\n📡 Pipeline Source: curated_registry
-LOCATION:Moscone Center\, San Francisco\, CA (Livestreamed) - https://www.
- snowflake.com/summit/
-STATUS:CONFIRMED
-URL:https://www.snowflake.com/summit/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Keynote Starting Soon: [Snowflake] Snowflake Summit: Opening K
  eynote
 TRIGGER:-PT30M
 END:VALARM

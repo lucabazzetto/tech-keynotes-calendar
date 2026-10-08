@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[NVIDIA] NVIDIA GTC Berlin: Jensen Huang Keynote
 DTSTART:20261021T090000Z
 DTEND:20261021T110000Z
-DTSTAMP:20261008T122302Z
+DTSTAMP:20261008T223523Z
 UID:nvidia-gtc-berlin-2026-keynote
 CATEGORIES:AI & Hardware,NVIDIA,Tech Keynote
 DESCRIPTION:NVIDIA CEO Jensen Huang live keynote at the Tempodrom.\n\n🔴
@@ -34,7 +34,7 @@ BEGIN:VEVENT
 SUMMARY:[GitHub] GitHub Universe: Day 1 Keynote
 DTSTART:20261028T160000Z
 DTEND:20261028T170000Z
-DTSTAMP:20261008T122302Z
+DTSTAMP:20261008T223523Z
 UID:github-universe-2026-day1-keynote
 CATEGORIES:Software & Dev Tools,GitHub,Tech Keynote
 DESCRIPTION:GitHub Universe 2026 opening keynote.\n(Official start time\; 
@@ -56,7 +56,7 @@ BEGIN:VEVENT
 SUMMARY:[GitHub] GitHub Universe: Closing Keynote
 DTSTART:20261029T210000Z
 DTEND:20261029T220000Z
-DTSTAMP:20261008T122302Z
+DTSTAMP:20261008T223523Z
 UID:github-universe-2026-day2-keynote
 CATEGORIES:Software & Dev Tools,GitHub,Tech Keynote
 DESCRIPTION:GitHub Universe 2026 day 2 closing keynote.\n(Official start t
@@ -79,7 +79,7 @@ BEGIN:VEVENT
 SUMMARY:[Microsoft] Microsoft Ignite: Opening Keynote
 DTSTART:20261117T180000Z
 DTEND:20261117T200000Z
-DTSTAMP:20261008T122302Z
+DTSTAMP:20261008T223523Z
 UID:microsoft-ignite-2026-opening-keynote
 CATEGORIES:AI & Software,Microsoft,Tech Keynote
 DESCRIPTION:Opening keynote with Satya Nadella and Judson Althoff.\n\n🔴

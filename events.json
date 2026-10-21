@@ -1,18 +1,5 @@
 [
   {
-    "uid": "nvidia-gtc-berlin-2026-keynote",
-    "title": "NVIDIA GTC Berlin: Jensen Huang Keynote",
-    "company": "NVIDIA",
-    "category": "AI & Hardware",
-    "start_time": "2026-10-21T11:00:00+02:00",
-    "end_time": "2026-10-21T13:00:00+02:00",
-    "stream_url": "https://www.nvidia.com/en-eu/gtc/keynote/",
-    "description": "NVIDIA CEO Jensen Huang live keynote at the Tempodrom.",
-    "location": "Tempodrom, Berlin (Livestreamed)",
-    "source": "curated_registry",
-    "source_url": "https://www.nvidia.com/en-eu/gtc/keynote/"
-  },
-  {
     "uid": "github-universe-2026-day1-keynote",
     "title": "GitHub Universe: Day 1 Keynote",
     "company": "GitHub",

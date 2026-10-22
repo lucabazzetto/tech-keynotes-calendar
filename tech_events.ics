@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:[GitHub] GitHub Universe: Day 1 Keynote
 DTSTART:20261028T160000Z
 DTEND:20261028T170000Z
-DTSTAMP:20261022T104640Z
+DTSTAMP:20261022T161226Z
 UID:github-universe-2026-day1-keynote
 CATEGORIES:Software & Dev Tools,GitHub,Tech Keynote
 DESCRIPTION:GitHub Universe 2026 opening keynote.\n(Official start time\; 
@@ -34,7 +34,7 @@ BEGIN:VEVENT
 SUMMARY:[GitHub] GitHub Universe: Closing Keynote
 DTSTART:20261029T210000Z
 DTEND:20261029T220000Z
-DTSTAMP:20261022T104640Z
+DTSTAMP:20261022T161226Z
 UID:github-universe-2026-day2-keynote
 CATEGORIES:Software & Dev Tools,GitHub,Tech Keynote
 DESCRIPTION:GitHub Universe 2026 day 2 closing keynote.\n(Official start t
@@ -58,7 +58,7 @@ SUMMARY:[Databricks] Databricks: DATA + AI LIVE: Context Is Just the Begin
  ning
 DTSTART:20261111T170000Z
 DTEND:20261111T190000Z
-DTSTAMP:20261022T104640Z
+DTSTAMP:20261022T161226Z
 UID:yt-qg8fljnS3Os
 CATEGORIES:Data & Cloud Infrastructure,Databricks,Tech Keynote
 DESCRIPTION:Scheduled live broadcast on the official Databricks YouTube ch
@@ -83,7 +83,7 @@ BEGIN:VEVENT
 SUMMARY:[Microsoft] Microsoft Ignite: Opening Keynote
 DTSTART:20261117T180000Z
 DTEND:20261117T200000Z
-DTSTAMP:20261022T104640Z
+DTSTAMP:20261022T161226Z
 UID:microsoft-ignite-2026-opening-keynote
 CATEGORIES:AI & Software,Microsoft,Tech Keynote
 DESCRIPTION:Opening keynote with Satya Nadella and Judson Althoff.\n\n🔴

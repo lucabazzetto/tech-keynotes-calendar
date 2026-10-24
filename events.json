@@ -13,6 +13,19 @@
     "source_url": "https://www.youtube.com/watch?v=YPGQIOFNScs"
   },
   {
+    "uid": "yt--ywPUm6HLMc",
+    "title": "Oracle: Oracle AI World 2026 Keynote: Now That AI Works, What Are We Going to Do With It?",
+    "company": "Oracle",
+    "category": "Data & Cloud Infrastructure",
+    "start_time": "2026-10-27T16:00:00+00:00",
+    "end_time": "2026-10-27T17:30:00+00:00",
+    "stream_url": "https://www.youtube.com/watch?v=-ywPUm6HLMc",
+    "description": "Scheduled live broadcast on the official Oracle YouTube channel.\n(Start time from YouTube's schedule; end time not published.)\nWatch live at https://www.youtube.com/watch?v=-ywPUm6HLMc",
+    "location": "YouTube Live - https://www.youtube.com/watch?v=-ywPUm6HLMc",
+    "source": "youtube_live",
+    "source_url": "https://www.youtube.com/watch?v=-ywPUm6HLMc"
+  },
+  {
     "uid": "github-universe-2026-day1-keynote",
     "title": "GitHub Universe: Day 1 Keynote",
     "company": "GitHub",

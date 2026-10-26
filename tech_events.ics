@@ -13,7 +13,7 @@ SUMMARY:[Oracle] Oracle: Oracle AI World 2026 Keynote: Now That AI Works\,
   What Are We Going to Do With It?
 DTSTART:20261027T160000Z
 DTEND:20261027T173000Z
-DTSTAMP:20261026T174739Z
+DTSTAMP:20261026T220032Z
 UID:yt--ywPUm6HLMc
 CATEGORIES:Data & Cloud Infrastructure,Oracle,Tech Keynote
 DESCRIPTION:Scheduled live broadcast on the official Oracle YouTube channe
@@ -34,10 +34,35 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Oracle] Oracle: Larry Ellison Oracle AI World Keynote: The New Or
+ acle Health Application Suite and the Age of AI
+DTSTART:20261027T223000Z
+DTEND:20261028T000000Z
+DTSTAMP:20261026T220032Z
+UID:yt-JlOhoEQ8D5U
+CATEGORIES:Data & Cloud Infrastructure,Oracle,Tech Keynote
+DESCRIPTION:Scheduled live broadcast on the official Oracle YouTube channe
+ l.\n(Start time from YouTube's schedule\; end time not published.)\nWatch 
+ live at https://www.youtube.com/watch?v=JlOhoEQ8D5U\n\n🔴 Watch Live Str
+ eam: https://www.youtube.com/watch?v=JlOhoEQ8D5U\n🏢 Company: Oracle\n
+ 🏷️ Category: Data & Cloud Infrastructure\n📡 Pipeline Source: youtu
+ be_live\n✅ Confirmed by: https://www.youtube.com/watch?v=JlOhoEQ8D5U
+LOCATION:YouTube Live - https://www.youtube.com/watch?v=JlOhoEQ8D5U - http
+ s://www.youtube.com/watch?v=JlOhoEQ8D5U
+STATUS:CONFIRMED
+URL:https://www.youtube.com/watch?v=JlOhoEQ8D5U
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Keynote Starting Soon: [Oracle] Oracle: Larry Ellison Oracle A
+ I World Keynote: The New Oracle Health Application Suite and the Age of AI
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[GitHub] GitHub Universe: Day 1 Keynote
 DTSTART:20261028T160000Z
 DTEND:20261028T170000Z
-DTSTAMP:20261026T174739Z
+DTSTAMP:20261026T220032Z
 UID:github-universe-2026-day1-keynote
 CATEGORIES:Software & Dev Tools,GitHub,Tech Keynote
 DESCRIPTION:GitHub Universe 2026 opening keynote.\n(Official start time\; 
@@ -59,7 +84,7 @@ BEGIN:VEVENT
 SUMMARY:[GitHub] GitHub Universe: Closing Keynote
 DTSTART:20261029T210000Z
 DTEND:20261029T220000Z
-DTSTAMP:20261026T174739Z
+DTSTAMP:20261026T220032Z
 UID:github-universe-2026-day2-keynote
 CATEGORIES:Software & Dev Tools,GitHub,Tech Keynote
 DESCRIPTION:GitHub Universe 2026 day 2 closing keynote.\n(Official start t
@@ -83,7 +108,7 @@ SUMMARY:[Databricks] Databricks: DATA + AI LIVE: Context Is Just the Begin
  ning
 DTSTART:20261111T170000Z
 DTEND:20261111T190000Z
-DTSTAMP:20261026T174739Z
+DTSTAMP:20261026T220032Z
 UID:yt-BsVfRCNI8IY
 CATEGORIES:Data & Cloud Infrastructure,Databricks,Tech Keynote
 DESCRIPTION:Scheduled live broadcast on the official Databricks YouTube ch
@@ -108,7 +133,7 @@ BEGIN:VEVENT
 SUMMARY:[Microsoft] Microsoft Ignite: Opening Keynote
 DTSTART:20261117T180000Z
 DTEND:20261117T200000Z
-DTSTAMP:20261026T174739Z
+DTSTAMP:20261026T220032Z
 UID:microsoft-ignite-2026-opening-keynote
 CATEGORIES:AI & Software,Microsoft,Tech Keynote
 DESCRIPTION:Opening keynote with Satya Nadella and Judson Althoff.\n\n🔴

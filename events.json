@@ -13,6 +13,19 @@
     "source_url": "https://www.youtube.com/watch?v=-ywPUm6HLMc"
   },
   {
+    "uid": "yt-JlOhoEQ8D5U",
+    "title": "Oracle: Larry Ellison Oracle AI World Keynote: The New Oracle Health Application Suite and the Age of AI",
+    "company": "Oracle",
+    "category": "Data & Cloud Infrastructure",
+    "start_time": "2026-10-27T22:30:00+00:00",
+    "end_time": "2026-10-28T00:00:00+00:00",
+    "stream_url": "https://www.youtube.com/watch?v=JlOhoEQ8D5U",
+    "description": "Scheduled live broadcast on the official Oracle YouTube channel.\n(Start time from YouTube's schedule; end time not published.)\nWatch live at https://www.youtube.com/watch?v=JlOhoEQ8D5U",
+    "location": "YouTube Live - https://www.youtube.com/watch?v=JlOhoEQ8D5U",
+    "source": "youtube_live",
+    "source_url": "https://www.youtube.com/watch?v=JlOhoEQ8D5U"
+  },
+  {
     "uid": "github-universe-2026-day1-keynote",
     "title": "GitHub Universe: Day 1 Keynote",
     "company": "GitHub",

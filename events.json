@@ -1,18 +1,5 @@
 [
   {
-    "uid": "github-universe-2026-day1-keynote",
-    "title": "GitHub Universe: Day 1 Keynote",
-    "company": "GitHub",
-    "category": "Software & Dev Tools",
-    "start_time": "2026-10-28T09:00:00-07:00",
-    "end_time": "2026-10-28T10:00:00-07:00",
-    "stream_url": "https://www.youtube.com/watch?v=MZfqId_rrB0",
-    "description": "GitHub Universe 2026 opening keynote.\n(Official start time; end time not published by the organizer.)",
-    "location": "Fort Mason Center, San Francisco, CA (Livestreamed)",
-    "source": "curated_registry",
-    "source_url": "https://githubuniverse.com/"
-  },
-  {
     "uid": "github-universe-2026-day2-keynote",
     "title": "GitHub Universe: Closing Keynote",
     "company": "GitHub",

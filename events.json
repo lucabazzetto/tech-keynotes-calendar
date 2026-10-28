@@ -26,19 +26,6 @@
     "source_url": "https://githubuniverse.com/"
   },
   {
-    "uid": "yt-BsVfRCNI8IY",
-    "title": "Databricks: DATA + AI LIVE: Context Is Just the Beginning",
-    "company": "Databricks",
-    "category": "Data & Cloud Infrastructure",
-    "start_time": "2026-11-11T17:00:00+00:00",
-    "end_time": "2026-11-11T19:00:00+00:00",
-    "stream_url": "https://www.youtube.com/watch?v=BsVfRCNI8IY",
-    "description": "Scheduled live broadcast on the official Databricks YouTube channel.\n(Start time from YouTube's schedule; end time not published.)\nWatch live at https://www.youtube.com/watch?v=BsVfRCNI8IY",
-    "location": "YouTube Live - https://www.youtube.com/watch?v=BsVfRCNI8IY",
-    "source": "youtube_live",
-    "source_url": "https://www.youtube.com/watch?v=BsVfRCNI8IY"
-  },
-  {
     "uid": "microsoft-ignite-2026-opening-keynote",
     "title": "Microsoft Ignite: Opening Keynote",
     "company": "Microsoft",

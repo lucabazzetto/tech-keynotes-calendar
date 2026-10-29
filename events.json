@@ -1,18 +1,5 @@
 [
   {
-    "uid": "github-universe-2026-day2-keynote",
-    "title": "GitHub Universe: Closing Keynote",
-    "company": "GitHub",
-    "category": "Software & Dev Tools",
-    "start_time": "2026-10-29T14:00:00-07:00",
-    "end_time": "2026-10-29T15:00:00-07:00",
-    "stream_url": "https://www.youtube.com/watch?v=ZSMFrM54H2Q",
-    "description": "GitHub Universe 2026 day 2 closing keynote.\n(Official start time; end time not published by the organizer.)",
-    "location": "Fort Mason Center, San Francisco, CA (Livestreamed)",
-    "source": "curated_registry",
-    "source_url": "https://githubuniverse.com/"
-  },
-  {
     "uid": "yt-BsVfRCNI8IY",
     "title": "Databricks: DATA + AI LIVE: Context Is Just the Beginning",
     "company": "Databricks",

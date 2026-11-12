@@ -1,5 +1,18 @@
 [
   {
+    "uid": "yt-N2-HOnOIsts",
+    "title": "AWS: Let\u2019s Build an AI Agent to Measure a Fake Livestream\u2014Live!",
+    "company": "AWS",
+    "category": "Data & Cloud Infrastructure",
+    "start_time": "2026-11-12T19:00:00+00:00",
+    "end_time": "2026-11-12T21:00:00+00:00",
+    "stream_url": "https://www.youtube.com/watch?v=N2-HOnOIsts",
+    "description": "Scheduled live broadcast on the official AWS YouTube channel.\n(Start time from YouTube's schedule; end time not published.)\nWatch live at https://www.youtube.com/watch?v=N2-HOnOIsts",
+    "location": "YouTube Live - https://www.youtube.com/watch?v=N2-HOnOIsts",
+    "source": "youtube_live",
+    "source_url": "https://www.youtube.com/watch?v=N2-HOnOIsts"
+  },
+  {
     "uid": "microsoft-ignite-2026-opening-keynote",
     "title": "Microsoft Ignite: Opening Keynote",
     "company": "Microsoft",

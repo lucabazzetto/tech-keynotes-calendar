@@ -8,28 +8,4 @@ X-WR-CALNAME:Tech & Data Keynotes
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 X-WR-TIMEZONE:UTC
-BEGIN:VEVENT
-SUMMARY:[Microsoft] Microsoft Ignite: Opening Keynote
-DTSTART:20261117T180000Z
-DTEND:20261117T200000Z
-DTSTAMP:20261117T150235Z
-UID:microsoft-ignite-2026-opening-keynote
-CATEGORIES:AI & Software,Microsoft,Tech Keynote
-DESCRIPTION:Opening keynote with Satya Nadella and Judson Althoff.\n\n🔴
-  Watch Live Stream: https://ignite.microsoft.com/\n🏢 Company: Microsoft
- \n🏷️ Category: AI & Software\n📡 Pipeline Source: curated_registry
- \n✅ Confirmed by: https://www.microsoft.com/en-us/security/blog/2026/09/
- 30/secure-whats-next-your-guide-to-microsoft-security-at-microsoft-ignite-
- 2026/
-LOCATION:Chase Center\, San Francisco\, CA (Livestreamed) - https://ignite
- .microsoft.com/
-STATUS:CONFIRMED
-URL:https://ignite.microsoft.com/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Keynote Starting Soon: [Microsoft] Microsoft Ignite: Opening K
- eynote
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
 END:VCALENDAR

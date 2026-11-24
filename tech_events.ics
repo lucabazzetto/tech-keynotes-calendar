@@ -8,4 +8,29 @@ X-WR-CALNAME:Tech & Data Keynotes
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+SUMMARY:[GitHub] GitHub: GitHub Copilot Day live: new releases\, real work
+ flows\, and live coding
+DTSTART:20261215T160000Z
+DTEND:20261215T173000Z
+DTSTAMP:20261124T033324Z
+UID:yt-BGAVxG5_ybs
+CATEGORIES:Software & Dev Tools,GitHub,Tech Keynote
+DESCRIPTION:Scheduled live broadcast on the official GitHub YouTube channe
+ l.\n(Start time from YouTube's schedule\; end time not published.)\nWatch 
+ live at https://www.youtube.com/watch?v=BGAVxG5_ybs\n\n🔴 Watch Live Str
+ eam: https://www.youtube.com/watch?v=BGAVxG5_ybs\n🏢 Company: GitHub\n
+ 🏷️ Category: Software & Dev Tools\n📡 Pipeline Source: youtube_live
+ \n✅ Confirmed by: https://www.youtube.com/watch?v=BGAVxG5_ybs
+LOCATION:YouTube Live - https://www.youtube.com/watch?v=BGAVxG5_ybs - http
+ s://www.youtube.com/watch?v=BGAVxG5_ybs
+STATUS:CONFIRMED
+URL:https://www.youtube.com/watch?v=BGAVxG5_ybs
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Keynote Starting Soon: [GitHub] GitHub: GitHub Copilot Day liv
+ e: new releases\, real workflows\, and live coding
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
 END:VCALENDAR

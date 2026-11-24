@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "uid": "yt-BGAVxG5_ybs",
+    "title": "GitHub: GitHub Copilot Day live: new releases, real workflows, and live coding",
+    "company": "GitHub",
+    "category": "Software & Dev Tools",
+    "start_time": "2026-12-15T16:00:00+00:00",
+    "end_time": "2026-12-15T17:30:00+00:00",
+    "stream_url": "https://www.youtube.com/watch?v=BGAVxG5_ybs",
+    "description": "Scheduled live broadcast on the official GitHub YouTube channel.\n(Start time from YouTube's schedule; end time not published.)\nWatch live at https://www.youtube.com/watch?v=BGAVxG5_ybs",
+    "location": "YouTube Live - https://www.youtube.com/watch?v=BGAVxG5_ybs",
+    "source": "youtube_live",
+    "source_url": "https://www.youtube.com/watch?v=BGAVxG5_ybs"
+  }
+]
